@@ -1,7 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="74b42691-c42c-4245-9877-6351dc561628" name="Changes" comment="..." />
+    <list default="true" id="74b42691-c42c-4245-9877-6351dc561628" name="Changes" comment="...">
+      <change beforePath="$PROJECT_DIR$/wildflydeploy/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wildflydeploy/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wildflydeploy/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wildflydeploy/materials/WILDFLY NOTES.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wildflydeploy/materials/chaceNotes" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wildflydeploy/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wildflydeploy/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wildflydeploy/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wildflydeploy/src/main/java/com/chace/wildflydeploy/HelloController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wildflydeploy/src/main/java/com/chace/wildflydeploy/ServletInitializer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wildflydeploy/src/main/java/com/chace/wildflydeploy/WildflydeployApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wildflydeploy/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wildflydeploy/src/main/webapp/WEB-INF/jboss-deployment-structure.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wildflydeploy/src/test/java/com/chace/wildflydeploy/WildflydeployApplicationTests.java" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -26,7 +41,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Data/Docs/Projects/Spring boot/springBootDeployWildflyTest/wildflydeploy"
+    "last_opened_file_path": "C:/Data/Docs/Projects/Spring boot/springBootDeployWildflyTest/HelloSpringBootAppDeployedToWildfly28"
   }
 }]]></component>
   <component name="RunManager">
@@ -54,6 +69,7 @@
       <updated>1685784432896</updated>
       <workItem from="1685784434334" duration="938000" />
       <workItem from="1685785442898" duration="23000" />
+      <workItem from="1685786254542" duration="24000" />
     </task>
     <task id="LOCAL-00001" summary="...">
       <created>1685785283116</created>
