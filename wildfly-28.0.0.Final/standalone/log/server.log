@@ -1,0 +1,1245 @@
+2023-06-03 08:20:09,996 INFO  [org.jboss.modules] (main) JBoss Modules version 2.1.0.Final
+2023-06-03 08:20:10,513 INFO  [org.jboss.msc] (main) JBoss MSC version 1.5.0.Final
+2023-06-03 08:20:10,530 INFO  [org.jboss.threads] (main) JBoss Threads version 2.4.0.Final
+2023-06-03 08:20:10,597 INFO  [org.jboss.as] (MSC service thread 1-1) WFLYSRV0049: WildFly Full 28.0.0.Final (WildFly Core 20.0.1.Final) starting
+2023-06-03 08:20:10,613 DEBUG [org.jboss.as.config] (MSC service thread 1-1) Configured system properties:
+	file.encoding = Cp1252
+	file.separator = \
+	java.awt.headless = true
+	java.class.path = C:\Data\Docs\Projects\Spring boot\Test_Deploy_SpringBoot_On_Wildfly\wildfly-28.0.0.Final\jboss-modules.jar
+	java.class.version = 61.0
+	java.home = C:\Program Files\Java\jdk-17
+	java.io.tmpdir = C:\Users\Chace\AppData\Local\Temp\
+	java.library.path = C:\Program Files\Java\jdk-17\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files\BellSoft\LibericaJDK-17\bin\;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\dotnet\;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\Program Files\Java\jdk1.8.0_271\bin;C:\Program Files\Java\jre1.8.0_271\bin;C:\Program Files\Java\jdk-17\bin;C:\Program Files\apache-maven-3.9.2\bin;C:\Users\Chace\AppData\Local\Programs\Python\Python39\Scripts\;C:\Users\Chace\AppData\Local\Programs\Python\Python39\;C:\Users\Chace\AppData\Local\Microsoft\WindowsApps;C:\Users\Chace\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Chace\.dotnet\tools;C:\Users\Chace\AppData\Roaming\npm;C:\Users\Chace\AppData\Local\JetBrains\Toolbox\scripts;.
+	java.net.preferIPv4Stack = true
+	java.runtime.name = Java(TM) SE Runtime Environment
+	java.runtime.version = 17.0.6+9-LTS-190
+	java.security.manager = allow
+	java.specification.name = Java Platform API Specification
+	java.specification.vendor = Oracle Corporation
+	java.specification.version = 17
+	java.util.logging.manager = org.jboss.logmanager.LogManager
+	java.vendor = Oracle Corporation
+	java.vendor.url = https://java.oracle.com/
+	java.vendor.url.bug = https://bugreport.java.com/bugreport/
+	java.version = 17.0.6
+	java.version.date = 2023-01-17
+	java.vm.compressedOopsMode = 32-bit
+	java.vm.info = mixed mode, sharing
+	java.vm.name = Java HotSpot(TM) 64-Bit Server VM
+	java.vm.specification.name = Java Virtual Machine Specification
+	java.vm.specification.vendor = Oracle Corporation
+	java.vm.specification.version = 17
+	java.vm.vendor = Oracle Corporation
+	java.vm.version = 17.0.6+9-LTS-190
+	javax.management.builder.initial = org.jboss.as.jmx.PluggableMBeanServerBuilder
+	jboss.home.dir = C:\Data\Docs\Projects\Spring boot\Test_Deploy_SpringBoot_On_Wildfly\wildfly-28.0.0.Final
+	jboss.host.name = ccom
+	jboss.modules.dir = C:\Data\Docs\Projects\Spring boot\Test_Deploy_SpringBoot_On_Wildfly\wildfly-28.0.0.Final\modules
+	jboss.modules.system.pkgs = org.jboss.byteman
+	jboss.node.name = ccom
+	jboss.qualified.host.name = ccom
+	jboss.server.base.dir = C:\Data\Docs\Projects\Spring boot\Test_Deploy_SpringBoot_On_Wildfly\wildfly-28.0.0.Final\standalone
+	jboss.server.config.dir = C:\Data\Docs\Projects\Spring boot\Test_Deploy_SpringBoot_On_Wildfly\wildfly-28.0.0.Final\standalone\configuration
+	jboss.server.data.dir = C:\Data\Docs\Projects\Spring boot\Test_Deploy_SpringBoot_On_Wildfly\wildfly-28.0.0.Final\standalone\data
+	jboss.server.deploy.dir = C:\Data\Docs\Projects\Spring boot\Test_Deploy_SpringBoot_On_Wildfly\wildfly-28.0.0.Final\standalone\data\content
+	jboss.server.log.dir = C:\Data\Docs\Projects\Spring boot\Test_Deploy_SpringBoot_On_Wildfly\wildfly-28.0.0.Final\standalone\log
+	jboss.server.name = ccom
+	jboss.server.persist.config = true
+	jboss.server.temp.dir = C:\Data\Docs\Projects\Spring boot\Test_Deploy_SpringBoot_On_Wildfly\wildfly-28.0.0.Final\standalone\tmp
+	jdk.debug = release
+	line.separator = 
+
+	logging.configuration = file:C:\Data\Docs\Projects\Spring boot\Test_Deploy_SpringBoot_On_Wildfly\wildfly-28.0.0.Final\standalone\configuration/logging.properties
+	module.path = C:\Data\Docs\Projects\Spring boot\Test_Deploy_SpringBoot_On_Wildfly\wildfly-28.0.0.Final\modules
+	native.encoding = Cp1252
+	org.jboss.boot.log.file = C:\Data\Docs\Projects\Spring boot\Test_Deploy_SpringBoot_On_Wildfly\wildfly-28.0.0.Final\standalone\log\server.log
+	org.jboss.resolver.warning = true
+	os.arch = amd64
+	os.name = Windows 10
+	os.version = 10.0
+	path.separator = ;
+	program.name = standalone.bat
+	sun.arch.data.model = 64
+	sun.boot.library.path = C:\Program Files\Java\jdk-17\bin
+	sun.cpu.endian = little
+	sun.cpu.isalist = amd64
+	sun.io.unicode.encoding = UnicodeLittle
+	sun.java.command = C:\Data\Docs\Projects\Spring boot\Test_Deploy_SpringBoot_On_Wildfly\wildfly-28.0.0.Final\jboss-modules.jar -mp C:\Data\Docs\Projects\Spring boot\Test_Deploy_SpringBoot_On_Wildfly\wildfly-28.0.0.Final\modules org.jboss.as.standalone -Djboss.home.dir=C:\Data\Docs\Projects\Spring boot\Test_Deploy_SpringBoot_On_Wildfly\wildfly-28.0.0.Final
+	sun.java.launcher = SUN_STANDARD
+	sun.jnu.encoding = Cp1252
+	sun.management.compiler = HotSpot 64-Bit Tiered Compilers
+	sun.os.patch.level = 
+	sun.stderr.encoding = cp850
+	sun.stdout.encoding = cp850
+	user.country = US
+	user.country.format = CM
+	user.dir = C:\Data\Docs\Projects\Spring boot\Test_Deploy_SpringBoot_On_Wildfly\wildfly-28.0.0.Final\bin
+	user.home = C:\Users\Chace
+	user.language = en
+	user.language.format = fr
+	user.name = Chace
+	user.script = 
+	user.timezone = Africa/Libreville
+	user.variant = 
+2023-06-03 08:20:10,613 DEBUG [org.jboss.as.config] (MSC service thread 1-1) VM Arguments: -Dprogram.name=standalone.bat -Xms64M -Xmx512M -XX:MetaspaceSize=96M -XX:MaxMetaspaceSize=256m -Djava.net.preferIPv4Stack=true -Djboss.modules.system.pkgs=org.jboss.byteman -Djava.awt.headless=true --add-exports=java.desktop/sun.awt=ALL-UNNAMED --add-exports=java.naming/com.sun.jndi.ldap=ALL-UNNAMED --add-exports=java.naming/com.sun.jndi.url.ldap=ALL-UNNAMED --add-exports=java.naming/com.sun.jndi.url.ldaps=ALL-UNNAMED --add-exports=jdk.naming.dns/com.sun.jndi.dns=ALL-UNNAMED --add-opens=java.base/java.lang=ALL-UNNAMED --add-opens=java.base/java.lang.invoke=ALL-UNNAMED --add-opens=java.base/java.io=ALL-UNNAMED --add-opens=java.base/java.lang.reflect=ALL-UNNAMED --add-opens=java.base/java.security=ALL-UNNAMED --add-opens=java.base/java.util=ALL-UNNAMED --add-opens=java.base/java.util.concurrent=ALL-UNNAMED --add-opens=java.management/javax.management=ALL-UNNAMED --add-opens=java.naming/javax.naming=ALL-UNNAMED -Djava.security.manager=allow -Dorg.jboss.boot.log.file=C:\Data\Docs\Projects\Spring boot\Test_Deploy_SpringBoot_On_Wildfly\wildfly-28.0.0.Final\standalone\log\server.log -Dlogging.configuration=file:C:\Data\Docs\Projects\Spring boot\Test_Deploy_SpringBoot_On_Wildfly\wildfly-28.0.0.Final\standalone\configuration/logging.properties 
+2023-06-03 08:20:11,130 INFO  [org.wildfly.security] (ServerService Thread Pool -- 28) ELY00001: WildFly Elytron version 2.1.0.Final
+2023-06-03 08:20:11,528 INFO  [org.jboss.as.controller.management-deprecated] (ServerService Thread Pool -- 23) WFLYCTL0028: Attribute 'cluster' in the resource at address '/subsystem=ejb3/service=remote' is deprecated, and may be removed in a future version. See the attribute description in the output of the read-resource-description operation to learn more about the deprecation.
+2023-06-03 08:20:11,560 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0039: Creating http management service using socket-binding (management-http)
+2023-06-03 08:20:11,577 INFO  [org.xnio] (MSC service thread 1-3) XNIO version 3.8.9.Final
+2023-06-03 08:20:11,577 INFO  [org.xnio.nio] (MSC service thread 1-3) XNIO NIO Implementation Version 3.8.9.Final
+2023-06-03 08:20:11,648 WARN  [org.jboss.as.txn] (ServerService Thread Pool -- 74) WFLYTX0013: The node-identifier attribute on the /subsystem=transactions is set to the default value. This is a danger for environments running multiple servers. Please make sure the attribute value is unique.
+2023-06-03 08:20:11,657 INFO  [org.jboss.as.jaxrs] (ServerService Thread Pool -- 57) WFLYRS0016: RESTEasy version 6.2.3.Final
+2023-06-03 08:20:11,659 INFO  [org.wildfly.extension.microprofile.jwt.smallrye] (ServerService Thread Pool -- 66) WFLYJWT0001: Activating MicroProfile JWT Subsystem
+2023-06-03 08:20:11,660 INFO  [org.wildfly.extension.io] (ServerService Thread Pool -- 56) WFLYIO001: Worker 'default' has auto-configured to 16 IO threads with 128 max task threads based on your 8 available processors
+2023-06-03 08:20:11,662 INFO  [org.wildfly.extension.microprofile.config.smallrye] (ServerService Thread Pool -- 65) WFLYCONF0001: Activating MicroProfile Config Subsystem
+2023-06-03 08:20:11,665 INFO  [org.wildfly.extension.elytron.oidc._private] (ServerService Thread Pool -- 53) WFLYOIDC0001: Activating WildFly Elytron OIDC Subsystem
+2023-06-03 08:20:11,668 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 55) WFLYCLINF0001: Activating Infinispan subsystem.
+2023-06-03 08:20:11,669 INFO  [org.wildfly.extension.health] (ServerService Thread Pool -- 54) WFLYHEALTH0001: Activating Base Health Subsystem
+2023-06-03 08:20:11,681 INFO  [org.wildfly.extension.metrics] (ServerService Thread Pool -- 64) WFLYMETRICS0001: Activating Base Metrics Subsystem
+2023-06-03 08:20:11,681 INFO  [org.jboss.as.jsf] (ServerService Thread Pool -- 62) WFLYJSF0007: Activated the following Jakarta Server Faces Implementations: [main]
+2023-06-03 08:20:11,690 INFO  [org.jboss.as.naming] (ServerService Thread Pool -- 67) WFLYNAM0001: Activating Naming Subsystem
+2023-06-03 08:20:11,703 INFO  [org.jboss.as.webservices] (ServerService Thread Pool -- 76) WFLYWS0002: Activating WebServices Extension
+2023-06-03 08:20:11,776 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-3) WFLYUT0003: Undertow 2.3.5.Final starting
+2023-06-03 08:20:11,792 INFO  [org.jboss.as.connector] (MSC service thread 1-4) WFLYJCA0009: Starting Jakarta Connectors Subsystem (WildFly/IronJacamar 3.0.2.Final)
+2023-06-03 08:20:11,798 INFO  [org.jboss.remoting] (MSC service thread 1-5) JBoss Remoting version 5.0.27.Final
+2023-06-03 08:20:11,805 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 44) WFLYJCA0004: Deploying JDBC-compliant driver class org.h2.Driver (version 2.1)
+2023-06-03 08:20:11,825 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-3) WFLYJCA0018: Started Driver service with driver-name = h2
+2023-06-03 08:20:11,829 INFO  [org.jboss.as.naming] (MSC service thread 1-4) WFLYNAM0003: Starting Naming Service
+2023-06-03 08:20:11,914 WARN  [org.wildfly.extension.elytron] (MSC service thread 1-3) WFLYELY00023: KeyStore file 'C:\Data\Docs\Projects\Spring boot\Test_Deploy_SpringBoot_On_Wildfly\wildfly-28.0.0.Final\standalone\configuration\application.keystore' does not exist. Used blank.
+2023-06-03 08:20:11,904 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 75) WFLYUT0014: Creating file handler for path 'C:\Data\Docs\Projects\Spring boot\Test_Deploy_SpringBoot_On_Wildfly\wildfly-28.0.0.Final/welcome-content' with options [directory-listing: 'false', follow-symlink: 'false', case-sensitive: 'true', safe-symlink-paths: '[]']
+2023-06-03 08:20:11,963 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-5) WFLYUT0012: Started server default-server.
+2023-06-03 08:20:11,963 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-5) Queuing requests.
+2023-06-03 08:20:11,963 WARN  [org.wildfly.extension.elytron] (MSC service thread 1-7) WFLYELY01084: KeyStore C:\Data\Docs\Projects\Spring boot\Test_Deploy_SpringBoot_On_Wildfly\wildfly-28.0.0.Final\standalone\configuration\application.keystore not found, it will be auto-generated on first use with a self-signed certificate for host localhost
+2023-06-03 08:20:11,963 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-5) WFLYUT0018: Host default-host starting
+2023-06-03 08:20:12,006 INFO  [org.jboss.as.ejb3] (MSC service thread 1-1) WFLYEJB0482: Strict pool mdb-strict-max-pool is using a max instance size of 32 (per class), which is derived from the number of CPUs on this host.
+2023-06-03 08:20:12,006 INFO  [org.jboss.as.ejb3] (MSC service thread 1-4) WFLYEJB0481: Strict pool slsb-strict-max-pool is using a max instance size of 128 (per class), which is derived from thread worker pool sizing.
+2023-06-03 08:20:12,007 INFO  [org.jboss.as.mail.extension] (MSC service thread 1-4) WFLYMAIL0001: Bound mail session [java:jboss/mail/Default]
+2023-06-03 08:20:12,073 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-5) WFLYUT0006: Undertow HTTP listener default listening on 127.0.0.1:8080
+2023-06-03 08:20:12,167 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-3) WFLYUT0006: Undertow HTTPS listener https listening on 127.0.0.1:8443
+2023-06-03 08:20:12,173 INFO  [org.jboss.as.ejb3] (MSC service thread 1-2) WFLYEJB0493: Jakarta Enterprise Beans subsystem suspension complete
+2023-06-03 08:20:12,224 INFO  [org.jboss.as.patching] (MSC service thread 1-6) WFLYPAT0050: WildFly Full cumulative patch ID is: base, one-off patches include: none
+2023-06-03 08:20:12,224 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-5) WFLYJCA0001: Bound data source [java:jboss/datasources/ExampleDS]
+2023-06-03 08:20:12,230 INFO  [org.jboss.as.server.deployment.scanner] (MSC service thread 1-7) WFLYDS0013: Started FileSystemDeploymentService for directory C:\Data\Docs\Projects\Spring boot\Test_Deploy_SpringBoot_On_Wildfly\wildfly-28.0.0.Final\standalone\deployments
+2023-06-03 08:20:12,282 INFO  [org.jboss.ws.common.management] (MSC service thread 1-2) JBWS022052: Starting JBossWS 6.2.0.Final (Apache CXF 4.0.0) 
+2023-06-03 08:20:12,368 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0212: Resuming server
+2023-06-03 08:20:12,372 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0060: Http management interface listening on http://127.0.0.1:9990/management
+2023-06-03 08:20:12,372 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0051: Admin console listening on http://127.0.0.1:9990
+2023-06-03 08:20:12,374 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0025: WildFly Full 28.0.0.Final (WildFly Core 20.0.1.Final) started in 2604ms - Started 280 of 522 services (317 services are lazy, passive or on-demand) - Server configuration file in use: standalone.xml
+2023-06-03 08:40:33,027 INFO  [org.jboss.as.repository] (DeploymentScanner-threads - 1) WFLYDR0001: Content added at location C:\Data\Docs\Projects\Spring boot\Test_Deploy_SpringBoot_On_Wildfly\wildfly-28.0.0.Final\standalone\data\content\8f\796c6950a510ac0110284ba2f5ed87e99192d0\content
+2023-06-03 08:40:33,047 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-2) WFLYSRV0027: Starting deployment of "deployOnWildfly-0.0.1-SNAPSHOT.war" (runtime-name: "deployOnWildfly-0.0.1-SNAPSHOT.war")
+2023-06-03 08:40:36,920 INFO  [org.jboss.weld.deployer] (MSC service thread 1-5) WFLYWELD0003: Processing weld deployment deployOnWildfly-0.0.1-SNAPSHOT.war
+2023-06-03 08:40:36,993 INFO  [org.hibernate.validator.internal.util.Version] (MSC service thread 1-5) HV000001: Hibernate Validator 8.0.0.Final
+2023-06-03 08:40:37,293 INFO  [org.jboss.weld.Version] (MSC service thread 1-6) WELD-000900: 5.1.0 (Final)
+2023-06-03 08:40:37,862 INFO  [io.undertow.servlet] (ServerService Thread Pool -- 112) 2 Spring WebApplicationInitializers detected on classpath
+2023-06-03 08:40:38,058 ERROR [org.springframework.boot.SpringApplication] (ServerService Thread Pool -- 112) Application run failed: java.lang.ExceptionInInitializerError
+	at deployment.deployOnWildfly-0.0.1-SNAPSHOT.war//org.springframework.core.io.AbstractFileResolvingResource$VfsResourceDelegate.getResource(AbstractFileResolvingResource.java:329)
+	at deployment.deployOnWildfly-0.0.1-SNAPSHOT.war//org.springframework.core.io.AbstractFileResolvingResource.getFile(AbstractFileResolvingResource.java:171)
+	at deployment.deployOnWildfly-0.0.1-SNAPSHOT.war//org.springframework.boot.context.config.StandardConfigDataResource.getUnderlyingFile(StandardConfigDataResource.java:134)
+	at deployment.deployOnWildfly-0.0.1-SNAPSHOT.war//org.springframework.boot.context.config.StandardConfigDataResource.hashCode(StandardConfigDataResource.java:114)
+	at java.base/java.util.HashMap.hash(HashMap.java:338)
+	at java.base/java.util.HashMap.getNode(HashMap.java:568)
+	at java.base/java.util.HashMap.containsKey(HashMap.java:594)
+	at java.base/java.util.HashSet.contains(HashSet.java:205)
+	at deployment.deployOnWildfly-0.0.1-SNAPSHOT.war//org.springframework.boot.context.config.ConfigDataImporter.load(ConfigDataImporter.java:125)
+	at deployment.deployOnWildfly-0.0.1-SNAPSHOT.war//org.springframework.boot.context.config.ConfigDataImporter.resolveAndLoad(ConfigDataImporter.java:87)
+	at deployment.deployOnWildfly-0.0.1-SNAPSHOT.war//org.springframework.boot.context.config.ConfigDataEnvironmentContributors.withProcessedImports(ConfigDataEnvironmentContributors.java:115)
+	at deployment.deployOnWildfly-0.0.1-SNAPSHOT.war//org.springframework.boot.context.config.ConfigDataEnvironment.processInitial(ConfigDataEnvironment.java:242)
+	at deployment.deployOnWildfly-0.0.1-SNAPSHOT.war//org.springframework.boot.context.config.ConfigDataEnvironment.processAndApply(ConfigDataEnvironment.java:229)
+	at deployment.deployOnWildfly-0.0.1-SNAPSHOT.war//org.springframework.boot.context.config.ConfigDataEnvironmentPostProcessor.postProcessEnvironment(ConfigDataEnvironmentPostProcessor.java:96)
+	at deployment.deployOnWildfly-0.0.1-SNAPSHOT.war//org.springframework.boot.context.config.ConfigDataEnvironmentPostProcessor.postProcessEnvironment(ConfigDataEnvironmentPostProcessor.java:89)
+	at deployment.deployOnWildfly-0.0.1-SNAPSHOT.war//org.springframework.boot.env.EnvironmentPostProcessorApplicationListener.onApplicationEnvironmentPreparedEvent(EnvironmentPostProcessorApplicationListener.java:109)
+	at deployment.deployOnWildfly-0.0.1-SNAPSHOT.war//org.springframework.boot.env.EnvironmentPostProcessorApplicationListener.onApplicationEvent(EnvironmentPostProcessorApplicationListener.java:94)
+	at deployment.deployOnWildfly-0.0.1-SNAPSHOT.war//org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:172)
+	at deployment.deployOnWildfly-0.0.1-SNAPSHOT.war//org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:165)
+	at deployment.deployOnWildfly-0.0.1-SNAPSHOT.war//org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:143)
+	at deployment.deployOnWildfly-0.0.1-SNAPSHOT.war//org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:131)
+	at deployment.deployOnWildfly-0.0.1-SNAPSHOT.war//org.springframework.boot.context.event.EventPublishingRunListener.multicastInitialEvent(EventPublishingRunListener.java:136)
+	at deployment.deployOnWildfly-0.0.1-SNAPSHOT.war//org.springframework.boot.context.event.EventPublishingRunListener.environmentPrepared(EventPublishingRunListener.java:81)
+	at deployment.deployOnWildfly-0.0.1-SNAPSHOT.war//org.springframework.boot.SpringApplicationRunListeners.lambda$environmentPrepared$2(SpringApplicationRunListeners.java:64)
+	at java.base/java.lang.Iterable.forEach(Iterable.java:75)
+	at deployment.deployOnWildfly-0.0.1-SNAPSHOT.war//org.springframework.boot.SpringApplicationRunListeners.doWithListeners(SpringApplicationRunListeners.java:118)
+	at deployment.deployOnWildfly-0.0.1-SNAPSHOT.war//org.springframework.boot.SpringApplicationRunListeners.doWithListeners(SpringApplicationRunListeners.java:112)
+	at deployment.deployOnWildfly-0.0.1-SNAPSHOT.war//org.springframework.boot.SpringApplicationRunListeners.environmentPrepared(SpringApplicationRunListeners.java:63)
+	at deployment.deployOnWildfly-0.0.1-SNAPSHOT.war//org.springframework.boot.SpringApplication.prepareEnvironment(SpringApplication.java:354)
+	at deployment.deployOnWildfly-0.0.1-SNAPSHOT.war//org.springframework.boot.SpringApplication.run(SpringApplication.java:305)
+	at deployment.deployOnWildfly-0.0.1-SNAPSHOT.war//org.springframework.boot.web.servlet.support.SpringBootServletInitializer.run(SpringBootServletInitializer.java:174)
+	at deployment.deployOnWildfly-0.0.1-SNAPSHOT.war//org.springframework.boot.web.servlet.support.SpringBootServletInitializer.createRootApplicationContext(SpringBootServletInitializer.java:154)
+	at deployment.deployOnWildfly-0.0.1-SNAPSHOT.war//org.springframework.boot.web.servlet.support.SpringBootServletInitializer.onStartup(SpringBootServletInitializer.java:96)
+	at deployment.deployOnWildfly-0.0.1-SNAPSHOT.war//org.springframework.web.SpringServletContainerInitializer.onStartup(SpringServletContainerInitializer.java:171)
+	at io.undertow.servlet@2.3.5.Final//io.undertow.servlet.core.DeploymentManagerImpl$1.call(DeploymentManagerImpl.java:204)
+	at io.undertow.servlet@2.3.5.Final//io.undertow.servlet.core.DeploymentManagerImpl$1.call(DeploymentManagerImpl.java:187)
+	at io.undertow.servlet@2.3.5.Final//io.undertow.servlet.core.ServletRequestContextThreadSetupAction$1.call(ServletRequestContextThreadSetupAction.java:42)
+	at io.undertow.servlet@2.3.5.Final//io.undertow.servlet.core.ContextClassLoaderSetupAction$1.call(ContextClassLoaderSetupAction.java:43)
+	at org.wildfly.extension.undertow@28.0.0.Final//org.wildfly.extension.undertow.deployment.UndertowDeploymentInfoService$UndertowThreadSetupAction.lambda$create$0(UndertowDeploymentInfoService.java:1430)
+	at org.wildfly.extension.undertow@28.0.0.Final//org.wildfly.extension.undertow.deployment.UndertowDeploymentInfoService$UndertowThreadSetupAction.lambda$create$0(UndertowDeploymentInfoService.java:1430)
+	at org.wildfly.extension.undertow@28.0.0.Final//org.wildfly.extension.undertow.deployment.UndertowDeploymentInfoService$UndertowThreadSetupAction.lambda$create$0(UndertowDeploymentInfoService.java:1430)
+	at org.wildfly.extension.undertow@28.0.0.Final//org.wildfly.extension.undertow.deployment.UndertowDeploymentInfoService$UndertowThreadSetupAction.lambda$create$0(UndertowDeploymentInfoService.java:1430)
+	at io.undertow.servlet@2.3.5.Final//io.undertow.servlet.core.DeploymentManagerImpl.deploy(DeploymentManagerImpl.java:255)
+	at org.wildfly.extension.undertow@28.0.0.Final//org.wildfly.extension.undertow.deployment.UndertowDeploymentService.startContext(UndertowDeploymentService.java:105)
+	at org.wildfly.extension.undertow@28.0.0.Final//org.wildfly.extension.undertow.deployment.UndertowDeploymentService$1.run(UndertowDeploymentService.java:87)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at org.jboss.threads@2.4.0.Final//org.jboss.threads.ContextClassLoaderSavingRunnable.run(ContextClassLoaderSavingRunnable.java:35)
+	at org.jboss.threads@2.4.0.Final//org.jboss.threads.EnhancedQueueExecutor.safeRun(EnhancedQueueExecutor.java:1990)
+	at org.jboss.threads@2.4.0.Final//org.jboss.threads.EnhancedQueueExecutor$ThreadBody.doRunTask(EnhancedQueueExecutor.java:1486)
+	at org.jboss.threads@2.4.0.Final//org.jboss.threads.EnhancedQueueExecutor$ThreadBody.run(EnhancedQueueExecutor.java:1377)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+	at org.jboss.threads@2.4.0.Final//org.jboss.threads.JBossThread.run(JBossThread.java:513)
+Caused by: java.lang.IllegalStateException: Could not detect JBoss VFS infrastructure
+	at deployment.deployOnWildfly-0.0.1-SNAPSHOT.war//org.springframework.core.io.VfsUtils.<clinit>(VfsUtils.java:96)
+	... 53 more
+Caused by: java.lang.ClassNotFoundException: org.jboss.vfs.VFS from [Module "deployment.deployOnWildfly-0.0.1-SNAPSHOT.war" from Service Module Loader]
+	at org.jboss.modules.ModuleClassLoader.findClass(ModuleClassLoader.java:200)
+	at org.jboss.modules.ConcurrentClassLoader.performLoadClassUnchecked(ConcurrentClassLoader.java:410)
+	at org.jboss.modules.ConcurrentClassLoader.performLoadClass(ConcurrentClassLoader.java:398)
+	at org.jboss.modules.ConcurrentClassLoader.loadClass(ConcurrentClassLoader.java:116)
+	at deployment.deployOnWildfly-0.0.1-SNAPSHOT.war//org.springframework.core.io.VfsUtils.<clinit>(VfsUtils.java:73)
+	... 53 more
+
+2023-06-03 08:40:38,061 ERROR [org.jboss.msc.service.fail] (ServerService Thread Pool -- 112) MSC000001: Failed to start service jboss.deployment.unit."deployOnWildfly-0.0.1-SNAPSHOT.war".undertow-deployment: org.jboss.msc.service.StartException in service jboss.deployment.unit."deployOnWildfly-0.0.1-SNAPSHOT.war".undertow-deployment: java.lang.ExceptionInInitializerError
+	at org.wildfly.extension.undertow@28.0.0.Final//org.wildfly.extension.undertow.deployment.UndertowDeploymentService$1.run(UndertowDeploymentService.java:90)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at org.jboss.threads@2.4.0.Final//org.jboss.threads.ContextClassLoaderSavingRunnable.run(ContextClassLoaderSavingRunnable.java:35)
+	at org.jboss.threads@2.4.0.Final//org.jboss.threads.EnhancedQueueExecutor.safeRun(EnhancedQueueExecutor.java:1990)
+	at org.jboss.threads@2.4.0.Final//org.jboss.threads.EnhancedQueueExecutor$ThreadBody.doRunTask(EnhancedQueueExecutor.java:1486)
+	at org.jboss.threads@2.4.0.Final//org.jboss.threads.EnhancedQueueExecutor$ThreadBody.run(EnhancedQueueExecutor.java:1377)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+	at org.jboss.threads@2.4.0.Final//org.jboss.threads.JBossThread.run(JBossThread.java:513)
+Caused by: java.lang.ExceptionInInitializerError
+	at deployment.deployOnWildfly-0.0.1-SNAPSHOT.war//org.springframework.core.io.AbstractFileResolvingResource$VfsResourceDelegate.getResource(AbstractFileResolvingResource.java:329)
+	at deployment.deployOnWildfly-0.0.1-SNAPSHOT.war//org.springframework.core.io.AbstractFileResolvingResource.getFile(AbstractFileResolvingResource.java:171)
+	at deployment.deployOnWildfly-0.0.1-SNAPSHOT.war//org.springframework.boot.context.config.StandardConfigDataResource.getUnderlyingFile(StandardConfigDataResource.java:134)
+	at deployment.deployOnWildfly-0.0.1-SNAPSHOT.war//org.springframework.boot.context.config.StandardConfigDataResource.hashCode(StandardConfigDataResource.java:114)
+	at java.base/java.util.HashMap.hash(HashMap.java:338)
+	at java.base/java.util.HashMap.getNode(HashMap.java:568)
+	at java.base/java.util.HashMap.containsKey(HashMap.java:594)
+	at java.base/java.util.HashSet.contains(HashSet.java:205)
+	at deployment.deployOnWildfly-0.0.1-SNAPSHOT.war//org.springframework.boot.context.config.ConfigDataImporter.load(ConfigDataImporter.java:125)
+	at deployment.deployOnWildfly-0.0.1-SNAPSHOT.war//org.springframework.boot.context.config.ConfigDataImporter.resolveAndLoad(ConfigDataImporter.java:87)
+	at deployment.deployOnWildfly-0.0.1-SNAPSHOT.war//org.springframework.boot.context.config.ConfigDataEnvironmentContributors.withProcessedImports(ConfigDataEnvironmentContributors.java:115)
+	at deployment.deployOnWildfly-0.0.1-SNAPSHOT.war//org.springframework.boot.context.config.ConfigDataEnvironment.processInitial(ConfigDataEnvironment.java:242)
+	at deployment.deployOnWildfly-0.0.1-SNAPSHOT.war//org.springframework.boot.context.config.ConfigDataEnvironment.processAndApply(ConfigDataEnvironment.java:229)
+	at deployment.deployOnWildfly-0.0.1-SNAPSHOT.war//org.springframework.boot.context.config.ConfigDataEnvironmentPostProcessor.postProcessEnvironment(ConfigDataEnvironmentPostProcessor.java:96)
+	at deployment.deployOnWildfly-0.0.1-SNAPSHOT.war//org.springframework.boot.context.config.ConfigDataEnvironmentPostProcessor.postProcessEnvironment(ConfigDataEnvironmentPostProcessor.java:89)
+	at deployment.deployOnWildfly-0.0.1-SNAPSHOT.war//org.springframework.boot.env.EnvironmentPostProcessorApplicationListener.onApplicationEnvironmentPreparedEvent(EnvironmentPostProcessorApplicationListener.java:109)
+	at deployment.deployOnWildfly-0.0.1-SNAPSHOT.war//org.springframework.boot.env.EnvironmentPostProcessorApplicationListener.onApplicationEvent(EnvironmentPostProcessorApplicationListener.java:94)
+	at deployment.deployOnWildfly-0.0.1-SNAPSHOT.war//org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:172)
+	at deployment.deployOnWildfly-0.0.1-SNAPSHOT.war//org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:165)
+	at deployment.deployOnWildfly-0.0.1-SNAPSHOT.war//org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:143)
+	at deployment.deployOnWildfly-0.0.1-SNAPSHOT.war//org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:131)
+	at deployment.deployOnWildfly-0.0.1-SNAPSHOT.war//org.springframework.boot.context.event.EventPublishingRunListener.multicastInitialEvent(EventPublishingRunListener.java:136)
+	at deployment.deployOnWildfly-0.0.1-SNAPSHOT.war//org.springframework.boot.context.event.EventPublishingRunListener.environmentPrepared(EventPublishingRunListener.java:81)
+	at deployment.deployOnWildfly-0.0.1-SNAPSHOT.war//org.springframework.boot.SpringApplicationRunListeners.lambda$environmentPrepared$2(SpringApplicationRunListeners.java:64)
+	at java.base/java.lang.Iterable.forEach(Iterable.java:75)
+	at deployment.deployOnWildfly-0.0.1-SNAPSHOT.war//org.springframework.boot.SpringApplicationRunListeners.doWithListeners(SpringApplicationRunListeners.java:118)
+	at deployment.deployOnWildfly-0.0.1-SNAPSHOT.war//org.springframework.boot.SpringApplicationRunListeners.doWithListeners(SpringApplicationRunListeners.java:112)
+	at deployment.deployOnWildfly-0.0.1-SNAPSHOT.war//org.springframework.boot.SpringApplicationRunListeners.environmentPrepared(SpringApplicationRunListeners.java:63)
+	at deployment.deployOnWildfly-0.0.1-SNAPSHOT.war//org.springframework.boot.SpringApplication.prepareEnvironment(SpringApplication.java:354)
+	at deployment.deployOnWildfly-0.0.1-SNAPSHOT.war//org.springframework.boot.SpringApplication.run(SpringApplication.java:305)
+	at deployment.deployOnWildfly-0.0.1-SNAPSHOT.war//org.springframework.boot.web.servlet.support.SpringBootServletInitializer.run(SpringBootServletInitializer.java:174)
+	at deployment.deployOnWildfly-0.0.1-SNAPSHOT.war//org.springframework.boot.web.servlet.support.SpringBootServletInitializer.createRootApplicationContext(SpringBootServletInitializer.java:154)
+	at deployment.deployOnWildfly-0.0.1-SNAPSHOT.war//org.springframework.boot.web.servlet.support.SpringBootServletInitializer.onStartup(SpringBootServletInitializer.java:96)
+	at deployment.deployOnWildfly-0.0.1-SNAPSHOT.war//org.springframework.web.SpringServletContainerInitializer.onStartup(SpringServletContainerInitializer.java:171)
+	at io.undertow.servlet@2.3.5.Final//io.undertow.servlet.core.DeploymentManagerImpl$1.call(DeploymentManagerImpl.java:204)
+	at io.undertow.servlet@2.3.5.Final//io.undertow.servlet.core.DeploymentManagerImpl$1.call(DeploymentManagerImpl.java:187)
+	at io.undertow.servlet@2.3.5.Final//io.undertow.servlet.core.ServletRequestContextThreadSetupAction$1.call(ServletRequestContextThreadSetupAction.java:42)
+	at io.undertow.servlet@2.3.5.Final//io.undertow.servlet.core.ContextClassLoaderSetupAction$1.call(ContextClassLoaderSetupAction.java:43)
+	at org.wildfly.extension.undertow@28.0.0.Final//org.wildfly.extension.undertow.deployment.UndertowDeploymentInfoService$UndertowThreadSetupAction.lambda$create$0(UndertowDeploymentInfoService.java:1430)
+	at org.wildfly.extension.undertow@28.0.0.Final//org.wildfly.extension.undertow.deployment.UndertowDeploymentInfoService$UndertowThreadSetupAction.lambda$create$0(UndertowDeploymentInfoService.java:1430)
+	at org.wildfly.extension.undertow@28.0.0.Final//org.wildfly.extension.undertow.deployment.UndertowDeploymentInfoService$UndertowThreadSetupAction.lambda$create$0(UndertowDeploymentInfoService.java:1430)
+	at org.wildfly.extension.undertow@28.0.0.Final//org.wildfly.extension.undertow.deployment.UndertowDeploymentInfoService$UndertowThreadSetupAction.lambda$create$0(UndertowDeploymentInfoService.java:1430)
+	at io.undertow.servlet@2.3.5.Final//io.undertow.servlet.core.DeploymentManagerImpl.deploy(DeploymentManagerImpl.java:255)
+	at org.wildfly.extension.undertow@28.0.0.Final//org.wildfly.extension.undertow.deployment.UndertowDeploymentService.startContext(UndertowDeploymentService.java:105)
+	at org.wildfly.extension.undertow@28.0.0.Final//org.wildfly.extension.undertow.deployment.UndertowDeploymentService$1.run(UndertowDeploymentService.java:87)
+	... 8 more
+Caused by: java.lang.IllegalStateException: Could not detect JBoss VFS infrastructure
+	at deployment.deployOnWildfly-0.0.1-SNAPSHOT.war//org.springframework.core.io.VfsUtils.<clinit>(VfsUtils.java:96)
+	... 53 more
+Caused by: java.lang.ClassNotFoundException: org.jboss.vfs.VFS from [Module "deployment.deployOnWildfly-0.0.1-SNAPSHOT.war" from Service Module Loader]
+	at org.jboss.modules.ModuleClassLoader.findClass(ModuleClassLoader.java:200)
+	at org.jboss.modules.ConcurrentClassLoader.performLoadClassUnchecked(ConcurrentClassLoader.java:410)
+	at org.jboss.modules.ConcurrentClassLoader.performLoadClass(ConcurrentClassLoader.java:398)
+	at org.jboss.modules.ConcurrentClassLoader.loadClass(ConcurrentClassLoader.java:116)
+	at deployment.deployOnWildfly-0.0.1-SNAPSHOT.war//org.springframework.core.io.VfsUtils.<clinit>(VfsUtils.java:73)
+	... 53 more
+
+2023-06-03 08:40:38,065 ERROR [org.jboss.as.controller.management-operation] (DeploymentScanner-threads - 1) WFLYCTL0013: Operation ("deploy") failed - address: ([("deployment" => "deployOnWildfly-0.0.1-SNAPSHOT.war")]) - failure description: {"WFLYCTL0080: Failed services" => {"jboss.deployment.unit.\"deployOnWildfly-0.0.1-SNAPSHOT.war\".undertow-deployment" => "java.lang.ExceptionInInitializerError
+    Caused by: java.lang.ExceptionInInitializerError
+    Caused by: java.lang.IllegalStateException: Could not detect JBoss VFS infrastructure
+    Caused by: java.lang.ClassNotFoundException: org.jboss.vfs.VFS from [Module \"deployment.deployOnWildfly-0.0.1-SNAPSHOT.war\" from Service Module Loader]"}}
+2023-06-03 08:44:19,652 INFO  [org.jboss.modules] (main) JBoss Modules version 2.1.0.Final
+2023-06-03 08:44:20,161 INFO  [org.jboss.msc] (main) JBoss MSC version 1.5.0.Final
+2023-06-03 08:44:20,170 INFO  [org.jboss.threads] (main) JBoss Threads version 2.4.0.Final
+2023-06-03 08:44:20,307 INFO  [org.jboss.as] (MSC service thread 1-1) WFLYSRV0049: WildFly Full 28.0.0.Final (WildFly Core 20.0.1.Final) starting
+2023-06-03 08:44:20,308 DEBUG [org.jboss.as.config] (MSC service thread 1-1) Configured system properties:
+	file.encoding = Cp1252
+	file.separator = \
+	java.awt.headless = true
+	java.class.path = C:\Data\Docs\Projects\Spring boot\Test_Deploy_SpringBoot_On_Wildfly\wildfly-28.0.0.Final\jboss-modules.jar
+	java.class.version = 61.0
+	java.home = C:\Program Files\Java\jdk-17
+	java.io.tmpdir = C:\Users\Chace\AppData\Local\Temp\
+	java.library.path = C:\Program Files\Java\jdk-17\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files\BellSoft\LibericaJDK-17\bin\;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\dotnet\;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\Program Files\Java\jdk1.8.0_271\bin;C:\Program Files\Java\jre1.8.0_271\bin;C:\Program Files\Java\jdk-17\bin;C:\Program Files\apache-maven-3.9.2\bin;C:\Users\Chace\AppData\Local\Programs\Python\Python39\Scripts\;C:\Users\Chace\AppData\Local\Programs\Python\Python39\;C:\Users\Chace\AppData\Local\Microsoft\WindowsApps;C:\Users\Chace\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Chace\.dotnet\tools;C:\Users\Chace\AppData\Roaming\npm;C:\Users\Chace\AppData\Local\JetBrains\Toolbox\scripts;.
+	java.net.preferIPv4Stack = true
+	java.runtime.name = Java(TM) SE Runtime Environment
+	java.runtime.version = 17.0.6+9-LTS-190
+	java.security.manager = allow
+	java.specification.name = Java Platform API Specification
+	java.specification.vendor = Oracle Corporation
+	java.specification.version = 17
+	java.util.logging.manager = org.jboss.logmanager.LogManager
+	java.vendor = Oracle Corporation
+	java.vendor.url = https://java.oracle.com/
+	java.vendor.url.bug = https://bugreport.java.com/bugreport/
+	java.version = 17.0.6
+	java.version.date = 2023-01-17
+	java.vm.compressedOopsMode = 32-bit
+	java.vm.info = mixed mode, sharing
+	java.vm.name = Java HotSpot(TM) 64-Bit Server VM
+	java.vm.specification.name = Java Virtual Machine Specification
+	java.vm.specification.vendor = Oracle Corporation
+	java.vm.specification.version = 17
+	java.vm.vendor = Oracle Corporation
+	java.vm.version = 17.0.6+9-LTS-190
+	javax.management.builder.initial = org.jboss.as.jmx.PluggableMBeanServerBuilder
+	jboss.home.dir = C:\Data\Docs\Projects\Spring boot\Test_Deploy_SpringBoot_On_Wildfly\wildfly-28.0.0.Final
+	jboss.host.name = ccom
+	jboss.modules.dir = C:\Data\Docs\Projects\Spring boot\Test_Deploy_SpringBoot_On_Wildfly\wildfly-28.0.0.Final\modules
+	jboss.modules.system.pkgs = org.jboss.byteman
+	jboss.node.name = ccom
+	jboss.qualified.host.name = ccom
+	jboss.server.base.dir = C:\Data\Docs\Projects\Spring boot\Test_Deploy_SpringBoot_On_Wildfly\wildfly-28.0.0.Final\standalone
+	jboss.server.config.dir = C:\Data\Docs\Projects\Spring boot\Test_Deploy_SpringBoot_On_Wildfly\wildfly-28.0.0.Final\standalone\configuration
+	jboss.server.data.dir = C:\Data\Docs\Projects\Spring boot\Test_Deploy_SpringBoot_On_Wildfly\wildfly-28.0.0.Final\standalone\data
+	jboss.server.deploy.dir = C:\Data\Docs\Projects\Spring boot\Test_Deploy_SpringBoot_On_Wildfly\wildfly-28.0.0.Final\standalone\data\content
+	jboss.server.log.dir = C:\Data\Docs\Projects\Spring boot\Test_Deploy_SpringBoot_On_Wildfly\wildfly-28.0.0.Final\standalone\log
+	jboss.server.name = ccom
+	jboss.server.persist.config = true
+	jboss.server.temp.dir = C:\Data\Docs\Projects\Spring boot\Test_Deploy_SpringBoot_On_Wildfly\wildfly-28.0.0.Final\standalone\tmp
+	jdk.debug = release
+	line.separator = 
+
+	logging.configuration = file:C:\Data\Docs\Projects\Spring boot\Test_Deploy_SpringBoot_On_Wildfly\wildfly-28.0.0.Final\standalone\configuration/logging.properties
+	module.path = C:\Data\Docs\Projects\Spring boot\Test_Deploy_SpringBoot_On_Wildfly\wildfly-28.0.0.Final\modules
+	native.encoding = Cp1252
+	org.jboss.boot.log.file = C:\Data\Docs\Projects\Spring boot\Test_Deploy_SpringBoot_On_Wildfly\wildfly-28.0.0.Final\standalone\log\server.log
+	org.jboss.resolver.warning = true
+	os.arch = amd64
+	os.name = Windows 10
+	os.version = 10.0
+	path.separator = ;
+	program.name = standalone.bat
+	sun.arch.data.model = 64
+	sun.boot.library.path = C:\Program Files\Java\jdk-17\bin
+	sun.cpu.endian = little
+	sun.cpu.isalist = amd64
+	sun.io.unicode.encoding = UnicodeLittle
+	sun.java.command = C:\Data\Docs\Projects\Spring boot\Test_Deploy_SpringBoot_On_Wildfly\wildfly-28.0.0.Final\jboss-modules.jar -mp C:\Data\Docs\Projects\Spring boot\Test_Deploy_SpringBoot_On_Wildfly\wildfly-28.0.0.Final\modules org.jboss.as.standalone -Djboss.home.dir=C:\Data\Docs\Projects\Spring boot\Test_Deploy_SpringBoot_On_Wildfly\wildfly-28.0.0.Final
+	sun.java.launcher = SUN_STANDARD
+	sun.jnu.encoding = Cp1252
+	sun.management.compiler = HotSpot 64-Bit Tiered Compilers
+	sun.os.patch.level = 
+	user.country = US
+	user.country.format = CM
+	user.dir = C:\Data\Docs\Projects\Spring boot\Test_Deploy_SpringBoot_On_Wildfly\wildfly-28.0.0.Final\bin
+	user.home = C:\Users\Chace
+	user.language = en
+	user.language.format = fr
+	user.name = Chace
+	user.script = 
+	user.timezone = Africa/Libreville
+	user.variant = 
+2023-06-03 08:44:20,312 DEBUG [org.jboss.as.config] (MSC service thread 1-1) VM Arguments: -Dprogram.name=standalone.bat -Xms64M -Xmx512M -XX:MetaspaceSize=96M -XX:MaxMetaspaceSize=256m -Djava.net.preferIPv4Stack=true -Djboss.modules.system.pkgs=org.jboss.byteman -Djava.awt.headless=true --add-exports=java.desktop/sun.awt=ALL-UNNAMED --add-exports=java.naming/com.sun.jndi.ldap=ALL-UNNAMED --add-exports=java.naming/com.sun.jndi.url.ldap=ALL-UNNAMED --add-exports=java.naming/com.sun.jndi.url.ldaps=ALL-UNNAMED --add-exports=jdk.naming.dns/com.sun.jndi.dns=ALL-UNNAMED --add-opens=java.base/java.lang=ALL-UNNAMED --add-opens=java.base/java.lang.invoke=ALL-UNNAMED --add-opens=java.base/java.io=ALL-UNNAMED --add-opens=java.base/java.lang.reflect=ALL-UNNAMED --add-opens=java.base/java.security=ALL-UNNAMED --add-opens=java.base/java.util=ALL-UNNAMED --add-opens=java.base/java.util.concurrent=ALL-UNNAMED --add-opens=java.management/javax.management=ALL-UNNAMED --add-opens=java.naming/javax.naming=ALL-UNNAMED -Djava.security.manager=allow -Dorg.jboss.boot.log.file=C:\Data\Docs\Projects\Spring boot\Test_Deploy_SpringBoot_On_Wildfly\wildfly-28.0.0.Final\standalone\log\server.log -Dlogging.configuration=file:C:\Data\Docs\Projects\Spring boot\Test_Deploy_SpringBoot_On_Wildfly\wildfly-28.0.0.Final\standalone\configuration/logging.properties 
+2023-06-03 08:44:21,253 INFO  [org.wildfly.security] (ServerService Thread Pool -- 28) ELY00001: WildFly Elytron version 2.1.0.Final
+2023-06-03 08:44:22,060 INFO  [org.jboss.as.controller.management-deprecated] (ServerService Thread Pool -- 12) WFLYCTL0028: Attribute 'cluster' in the resource at address '/subsystem=ejb3/service=remote' is deprecated, and may be removed in a future version. See the attribute description in the output of the read-resource-description operation to learn more about the deprecation.
+2023-06-03 08:44:22,122 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0039: Creating http management service using socket-binding (management-http)
+2023-06-03 08:44:22,133 INFO  [org.xnio] (MSC service thread 1-5) XNIO version 3.8.9.Final
+2023-06-03 08:44:22,139 INFO  [org.xnio.nio] (MSC service thread 1-5) XNIO NIO Implementation Version 3.8.9.Final
+2023-06-03 08:44:22,182 INFO  [org.jboss.as.jaxrs] (ServerService Thread Pool -- 57) WFLYRS0016: RESTEasy version 6.2.3.Final
+2023-06-03 08:44:22,187 WARN  [org.jboss.as.txn] (ServerService Thread Pool -- 74) WFLYTX0013: The node-identifier attribute on the /subsystem=transactions is set to the default value. This is a danger for environments running multiple servers. Please make sure the attribute value is unique.
+2023-06-03 08:44:22,194 INFO  [org.wildfly.extension.microprofile.jwt.smallrye] (ServerService Thread Pool -- 66) WFLYJWT0001: Activating MicroProfile JWT Subsystem
+2023-06-03 08:44:22,197 INFO  [org.wildfly.extension.microprofile.config.smallrye] (ServerService Thread Pool -- 65) WFLYCONF0001: Activating MicroProfile Config Subsystem
+2023-06-03 08:44:22,198 INFO  [org.wildfly.extension.elytron.oidc._private] (ServerService Thread Pool -- 53) WFLYOIDC0001: Activating WildFly Elytron OIDC Subsystem
+2023-06-03 08:44:22,202 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 55) WFLYCLINF0001: Activating Infinispan subsystem.
+2023-06-03 08:44:22,203 INFO  [org.wildfly.extension.health] (ServerService Thread Pool -- 54) WFLYHEALTH0001: Activating Base Health Subsystem
+2023-06-03 08:44:22,227 INFO  [org.jboss.as.naming] (ServerService Thread Pool -- 67) WFLYNAM0001: Activating Naming Subsystem
+2023-06-03 08:44:22,228 INFO  [org.jboss.as.jsf] (ServerService Thread Pool -- 62) WFLYJSF0007: Activated the following Jakarta Server Faces Implementations: [main]
+2023-06-03 08:44:22,228 INFO  [org.jboss.as.webservices] (ServerService Thread Pool -- 76) WFLYWS0002: Activating WebServices Extension
+2023-06-03 08:44:22,233 INFO  [org.wildfly.extension.metrics] (ServerService Thread Pool -- 64) WFLYMETRICS0001: Activating Base Metrics Subsystem
+2023-06-03 08:44:22,329 INFO  [org.jboss.as.connector] (MSC service thread 1-4) WFLYJCA0009: Starting Jakarta Connectors Subsystem (WildFly/IronJacamar 3.0.2.Final)
+2023-06-03 08:44:22,336 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-3) WFLYUT0003: Undertow 2.3.5.Final starting
+2023-06-03 08:44:22,353 INFO  [org.jboss.as.naming] (MSC service thread 1-1) WFLYNAM0003: Starting Naming Service
+2023-06-03 08:44:22,356 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 44) WFLYJCA0004: Deploying JDBC-compliant driver class org.h2.Driver (version 2.1)
+2023-06-03 08:44:22,440 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-3) WFLYJCA0018: Started Driver service with driver-name = h2
+2023-06-03 08:44:22,461 WARN  [org.wildfly.extension.elytron] (MSC service thread 1-3) WFLYELY00023: KeyStore file 'C:\Data\Docs\Projects\Spring boot\Test_Deploy_SpringBoot_On_Wildfly\wildfly-28.0.0.Final\standalone\configuration\application.keystore' does not exist. Used blank.
+2023-06-03 08:44:22,479 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 75) WFLYUT0014: Creating file handler for path 'C:\Data\Docs\Projects\Spring boot\Test_Deploy_SpringBoot_On_Wildfly\wildfly-28.0.0.Final/welcome-content' with options [directory-listing: 'false', follow-symlink: 'false', case-sensitive: 'true', safe-symlink-paths: '[]']
+2023-06-03 08:44:22,482 WARN  [org.wildfly.extension.elytron] (MSC service thread 1-1) WFLYELY01084: KeyStore C:\Data\Docs\Projects\Spring boot\Test_Deploy_SpringBoot_On_Wildfly\wildfly-28.0.0.Final\standalone\configuration\application.keystore not found, it will be auto-generated on first use with a self-signed certificate for host localhost
+2023-06-03 08:44:22,503 INFO  [org.jboss.as.mail.extension] (MSC service thread 1-6) WFLYMAIL0001: Bound mail session [java:jboss/mail/Default]
+2023-06-03 08:44:22,581 INFO  [org.wildfly.extension.io] (ServerService Thread Pool -- 56) WFLYIO001: Worker 'default' has auto-configured to 16 IO threads with 128 max task threads based on your 8 available processors
+2023-06-03 08:44:22,648 INFO  [org.jboss.as.ejb3] (MSC service thread 1-2) WFLYEJB0482: Strict pool mdb-strict-max-pool is using a max instance size of 32 (per class), which is derived from the number of CPUs on this host.
+2023-06-03 08:44:22,648 INFO  [org.jboss.as.ejb3] (MSC service thread 1-7) WFLYEJB0481: Strict pool slsb-strict-max-pool is using a max instance size of 128 (per class), which is derived from thread worker pool sizing.
+2023-06-03 08:44:22,668 INFO  [org.jboss.remoting] (MSC service thread 1-5) JBoss Remoting version 5.0.27.Final
+2023-06-03 08:44:22,669 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-2) WFLYUT0012: Started server default-server.
+2023-06-03 08:44:22,670 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-4) Queuing requests.
+2023-06-03 08:44:22,672 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-4) WFLYUT0018: Host default-host starting
+2023-06-03 08:44:22,718 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-7) WFLYUT0006: Undertow HTTP listener default listening on 127.0.0.1:8080
+2023-06-03 08:44:22,718 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-4) WFLYUT0006: Undertow HTTPS listener https listening on 127.0.0.1:8443
+2023-06-03 08:44:22,765 INFO  [org.jboss.as.patching] (MSC service thread 1-3) WFLYPAT0050: WildFly Full cumulative patch ID is: base, one-off patches include: none
+2023-06-03 08:44:22,769 INFO  [org.jboss.as.server.deployment.scanner] (MSC service thread 1-8) WFLYDS0013: Started FileSystemDeploymentService for directory C:\Data\Docs\Projects\Spring boot\Test_Deploy_SpringBoot_On_Wildfly\wildfly-28.0.0.Final\standalone\deployments
+2023-06-03 08:44:22,774 INFO  [org.jboss.as.ejb3] (MSC service thread 1-1) WFLYEJB0493: Jakarta Enterprise Beans subsystem suspension complete
+2023-06-03 08:44:22,848 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-3) WFLYJCA0001: Bound data source [java:jboss/datasources/ExampleDS]
+2023-06-03 08:44:22,857 INFO  [org.jboss.ws.common.management] (MSC service thread 1-6) JBWS022052: Starting JBossWS 6.2.0.Final (Apache CXF 4.0.0) 
+2023-06-03 08:44:22,950 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0212: Resuming server
+2023-06-03 08:44:22,955 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0060: Http management interface listening on http://127.0.0.1:9990/management
+2023-06-03 08:44:22,955 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0051: Admin console listening on http://127.0.0.1:9990
+2023-06-03 08:44:22,956 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0025: WildFly Full 28.0.0.Final (WildFly Core 20.0.1.Final) started in 3575ms - Started 280 of 522 services (317 services are lazy, passive or on-demand) - Server configuration file in use: standalone.xml
+2023-06-03 08:44:57,902 INFO  [org.jboss.as.repository] (DeploymentScanner-threads - 1) WFLYDR0001: Content added at location C:\Data\Docs\Projects\Spring boot\Test_Deploy_SpringBoot_On_Wildfly\wildfly-28.0.0.Final\standalone\data\content\c3\710e9ac625107c1287a29325c9899d3a075ee0\content
+2023-06-03 08:44:57,923 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-6) WFLYSRV0027: Starting deployment of "deployOnWildfly-0.0.1-SNAPSHOT.war" (runtime-name: "deployOnWildfly-0.0.1-SNAPSHOT.war")
+2023-06-03 08:45:02,255 INFO  [org.jboss.weld.deployer] (MSC service thread 1-4) WFLYWELD0003: Processing weld deployment deployOnWildfly-0.0.1-SNAPSHOT.war
+2023-06-03 08:45:02,346 INFO  [org.hibernate.validator.internal.util.Version] (MSC service thread 1-4) HV000001: Hibernate Validator 8.0.0.Final
+2023-06-03 08:45:02,676 INFO  [org.jboss.weld.Version] (MSC service thread 1-6) WELD-000900: 5.1.0 (Final)
+2023-06-03 08:45:03,358 INFO  [io.undertow.servlet] (ServerService Thread Pool -- 106) 2 Spring WebApplicationInitializers detected on classpath
+2023-06-03 08:45:03,570 ERROR [org.springframework.boot.SpringApplication] (ServerService Thread Pool -- 106) Application run failed: java.lang.ExceptionInInitializerError
+	at deployment.deployOnWildfly-0.0.1-SNAPSHOT.war//org.springframework.core.io.AbstractFileResolvingResource$VfsResourceDelegate.getResource(AbstractFileResolvingResource.java:329)
+	at deployment.deployOnWildfly-0.0.1-SNAPSHOT.war//org.springframework.core.io.AbstractFileResolvingResource.getFile(AbstractFileResolvingResource.java:171)
+	at deployment.deployOnWildfly-0.0.1-SNAPSHOT.war//org.springframework.boot.context.config.StandardConfigDataResource.getUnderlyingFile(StandardConfigDataResource.java:134)
+	at deployment.deployOnWildfly-0.0.1-SNAPSHOT.war//org.springframework.boot.context.config.StandardConfigDataResource.hashCode(StandardConfigDataResource.java:114)
+	at java.base/java.util.HashMap.hash(HashMap.java:338)
+	at java.base/java.util.HashMap.getNode(HashMap.java:568)
+	at java.base/java.util.HashMap.containsKey(HashMap.java:594)
+	at java.base/java.util.HashSet.contains(HashSet.java:205)
+	at deployment.deployOnWildfly-0.0.1-SNAPSHOT.war//org.springframework.boot.context.config.ConfigDataImporter.load(ConfigDataImporter.java:125)
+	at deployment.deployOnWildfly-0.0.1-SNAPSHOT.war//org.springframework.boot.context.config.ConfigDataImporter.resolveAndLoad(ConfigDataImporter.java:87)
+	at deployment.deployOnWildfly-0.0.1-SNAPSHOT.war//org.springframework.boot.context.config.ConfigDataEnvironmentContributors.withProcessedImports(ConfigDataEnvironmentContributors.java:115)
+	at deployment.deployOnWildfly-0.0.1-SNAPSHOT.war//org.springframework.boot.context.config.ConfigDataEnvironment.processInitial(ConfigDataEnvironment.java:242)
+	at deployment.deployOnWildfly-0.0.1-SNAPSHOT.war//org.springframework.boot.context.config.ConfigDataEnvironment.processAndApply(ConfigDataEnvironment.java:229)
+	at deployment.deployOnWildfly-0.0.1-SNAPSHOT.war//org.springframework.boot.context.config.ConfigDataEnvironmentPostProcessor.postProcessEnvironment(ConfigDataEnvironmentPostProcessor.java:96)
+	at deployment.deployOnWildfly-0.0.1-SNAPSHOT.war//org.springframework.boot.context.config.ConfigDataEnvironmentPostProcessor.postProcessEnvironment(ConfigDataEnvironmentPostProcessor.java:89)
+	at deployment.deployOnWildfly-0.0.1-SNAPSHOT.war//org.springframework.boot.env.EnvironmentPostProcessorApplicationListener.onApplicationEnvironmentPreparedEvent(EnvironmentPostProcessorApplicationListener.java:109)
+	at deployment.deployOnWildfly-0.0.1-SNAPSHOT.war//org.springframework.boot.env.EnvironmentPostProcessorApplicationListener.onApplicationEvent(EnvironmentPostProcessorApplicationListener.java:94)
+	at deployment.deployOnWildfly-0.0.1-SNAPSHOT.war//org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:172)
+	at deployment.deployOnWildfly-0.0.1-SNAPSHOT.war//org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:165)
+	at deployment.deployOnWildfly-0.0.1-SNAPSHOT.war//org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:143)
+	at deployment.deployOnWildfly-0.0.1-SNAPSHOT.war//org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:131)
+	at deployment.deployOnWildfly-0.0.1-SNAPSHOT.war//org.springframework.boot.context.event.EventPublishingRunListener.multicastInitialEvent(EventPublishingRunListener.java:136)
+	at deployment.deployOnWildfly-0.0.1-SNAPSHOT.war//org.springframework.boot.context.event.EventPublishingRunListener.environmentPrepared(EventPublishingRunListener.java:81)
+	at deployment.deployOnWildfly-0.0.1-SNAPSHOT.war//org.springframework.boot.SpringApplicationRunListeners.lambda$environmentPrepared$2(SpringApplicationRunListeners.java:64)
+	at java.base/java.lang.Iterable.forEach(Iterable.java:75)
+	at deployment.deployOnWildfly-0.0.1-SNAPSHOT.war//org.springframework.boot.SpringApplicationRunListeners.doWithListeners(SpringApplicationRunListeners.java:118)
+	at deployment.deployOnWildfly-0.0.1-SNAPSHOT.war//org.springframework.boot.SpringApplicationRunListeners.doWithListeners(SpringApplicationRunListeners.java:112)
+	at deployment.deployOnWildfly-0.0.1-SNAPSHOT.war//org.springframework.boot.SpringApplicationRunListeners.environmentPrepared(SpringApplicationRunListeners.java:63)
+	at deployment.deployOnWildfly-0.0.1-SNAPSHOT.war//org.springframework.boot.SpringApplication.prepareEnvironment(SpringApplication.java:354)
+	at deployment.deployOnWildfly-0.0.1-SNAPSHOT.war//org.springframework.boot.SpringApplication.run(SpringApplication.java:305)
+	at deployment.deployOnWildfly-0.0.1-SNAPSHOT.war//org.springframework.boot.web.servlet.support.SpringBootServletInitializer.run(SpringBootServletInitializer.java:174)
+	at deployment.deployOnWildfly-0.0.1-SNAPSHOT.war//org.springframework.boot.web.servlet.support.SpringBootServletInitializer.createRootApplicationContext(SpringBootServletInitializer.java:154)
+	at deployment.deployOnWildfly-0.0.1-SNAPSHOT.war//org.springframework.boot.web.servlet.support.SpringBootServletInitializer.onStartup(SpringBootServletInitializer.java:96)
+	at deployment.deployOnWildfly-0.0.1-SNAPSHOT.war//org.springframework.web.SpringServletContainerInitializer.onStartup(SpringServletContainerInitializer.java:171)
+	at io.undertow.servlet@2.3.5.Final//io.undertow.servlet.core.DeploymentManagerImpl$1.call(DeploymentManagerImpl.java:204)
+	at io.undertow.servlet@2.3.5.Final//io.undertow.servlet.core.DeploymentManagerImpl$1.call(DeploymentManagerImpl.java:187)
+	at io.undertow.servlet@2.3.5.Final//io.undertow.servlet.core.ServletRequestContextThreadSetupAction$1.call(ServletRequestContextThreadSetupAction.java:42)
+	at io.undertow.servlet@2.3.5.Final//io.undertow.servlet.core.ContextClassLoaderSetupAction$1.call(ContextClassLoaderSetupAction.java:43)
+	at org.wildfly.extension.undertow@28.0.0.Final//org.wildfly.extension.undertow.deployment.UndertowDeploymentInfoService$UndertowThreadSetupAction.lambda$create$0(UndertowDeploymentInfoService.java:1430)
+	at org.wildfly.extension.undertow@28.0.0.Final//org.wildfly.extension.undertow.deployment.UndertowDeploymentInfoService$UndertowThreadSetupAction.lambda$create$0(UndertowDeploymentInfoService.java:1430)
+	at org.wildfly.extension.undertow@28.0.0.Final//org.wildfly.extension.undertow.deployment.UndertowDeploymentInfoService$UndertowThreadSetupAction.lambda$create$0(UndertowDeploymentInfoService.java:1430)
+	at org.wildfly.extension.undertow@28.0.0.Final//org.wildfly.extension.undertow.deployment.UndertowDeploymentInfoService$UndertowThreadSetupAction.lambda$create$0(UndertowDeploymentInfoService.java:1430)
+	at io.undertow.servlet@2.3.5.Final//io.undertow.servlet.core.DeploymentManagerImpl.deploy(DeploymentManagerImpl.java:255)
+	at org.wildfly.extension.undertow@28.0.0.Final//org.wildfly.extension.undertow.deployment.UndertowDeploymentService.startContext(UndertowDeploymentService.java:105)
+	at org.wildfly.extension.undertow@28.0.0.Final//org.wildfly.extension.undertow.deployment.UndertowDeploymentService$1.run(UndertowDeploymentService.java:87)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at org.jboss.threads@2.4.0.Final//org.jboss.threads.ContextClassLoaderSavingRunnable.run(ContextClassLoaderSavingRunnable.java:35)
+	at org.jboss.threads@2.4.0.Final//org.jboss.threads.EnhancedQueueExecutor.safeRun(EnhancedQueueExecutor.java:1990)
+	at org.jboss.threads@2.4.0.Final//org.jboss.threads.EnhancedQueueExecutor$ThreadBody.doRunTask(EnhancedQueueExecutor.java:1486)
+	at org.jboss.threads@2.4.0.Final//org.jboss.threads.EnhancedQueueExecutor$ThreadBody.run(EnhancedQueueExecutor.java:1377)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+	at org.jboss.threads@2.4.0.Final//org.jboss.threads.JBossThread.run(JBossThread.java:513)
+Caused by: java.lang.IllegalStateException: Could not detect JBoss VFS infrastructure
+	at deployment.deployOnWildfly-0.0.1-SNAPSHOT.war//org.springframework.core.io.VfsUtils.<clinit>(VfsUtils.java:96)
+	... 53 more
+Caused by: java.lang.ClassNotFoundException: org.jboss.vfs.VFS from [Module "deployment.deployOnWildfly-0.0.1-SNAPSHOT.war" from Service Module Loader]
+	at org.jboss.modules.ModuleClassLoader.findClass(ModuleClassLoader.java:200)
+	at org.jboss.modules.ConcurrentClassLoader.performLoadClassUnchecked(ConcurrentClassLoader.java:410)
+	at org.jboss.modules.ConcurrentClassLoader.performLoadClass(ConcurrentClassLoader.java:398)
+	at org.jboss.modules.ConcurrentClassLoader.loadClass(ConcurrentClassLoader.java:116)
+	at deployment.deployOnWildfly-0.0.1-SNAPSHOT.war//org.springframework.core.io.VfsUtils.<clinit>(VfsUtils.java:73)
+	... 53 more
+
+2023-06-03 08:45:03,573 ERROR [org.jboss.msc.service.fail] (ServerService Thread Pool -- 106) MSC000001: Failed to start service jboss.deployment.unit."deployOnWildfly-0.0.1-SNAPSHOT.war".undertow-deployment: org.jboss.msc.service.StartException in service jboss.deployment.unit."deployOnWildfly-0.0.1-SNAPSHOT.war".undertow-deployment: java.lang.ExceptionInInitializerError
+	at org.wildfly.extension.undertow@28.0.0.Final//org.wildfly.extension.undertow.deployment.UndertowDeploymentService$1.run(UndertowDeploymentService.java:90)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at org.jboss.threads@2.4.0.Final//org.jboss.threads.ContextClassLoaderSavingRunnable.run(ContextClassLoaderSavingRunnable.java:35)
+	at org.jboss.threads@2.4.0.Final//org.jboss.threads.EnhancedQueueExecutor.safeRun(EnhancedQueueExecutor.java:1990)
+	at org.jboss.threads@2.4.0.Final//org.jboss.threads.EnhancedQueueExecutor$ThreadBody.doRunTask(EnhancedQueueExecutor.java:1486)
+	at org.jboss.threads@2.4.0.Final//org.jboss.threads.EnhancedQueueExecutor$ThreadBody.run(EnhancedQueueExecutor.java:1377)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+	at org.jboss.threads@2.4.0.Final//org.jboss.threads.JBossThread.run(JBossThread.java:513)
+Caused by: java.lang.ExceptionInInitializerError
+	at deployment.deployOnWildfly-0.0.1-SNAPSHOT.war//org.springframework.core.io.AbstractFileResolvingResource$VfsResourceDelegate.getResource(AbstractFileResolvingResource.java:329)
+	at deployment.deployOnWildfly-0.0.1-SNAPSHOT.war//org.springframework.core.io.AbstractFileResolvingResource.getFile(AbstractFileResolvingResource.java:171)
+	at deployment.deployOnWildfly-0.0.1-SNAPSHOT.war//org.springframework.boot.context.config.StandardConfigDataResource.getUnderlyingFile(StandardConfigDataResource.java:134)
+	at deployment.deployOnWildfly-0.0.1-SNAPSHOT.war//org.springframework.boot.context.config.StandardConfigDataResource.hashCode(StandardConfigDataResource.java:114)
+	at java.base/java.util.HashMap.hash(HashMap.java:338)
+	at java.base/java.util.HashMap.getNode(HashMap.java:568)
+	at java.base/java.util.HashMap.containsKey(HashMap.java:594)
+	at java.base/java.util.HashSet.contains(HashSet.java:205)
+	at deployment.deployOnWildfly-0.0.1-SNAPSHOT.war//org.springframework.boot.context.config.ConfigDataImporter.load(ConfigDataImporter.java:125)
+	at deployment.deployOnWildfly-0.0.1-SNAPSHOT.war//org.springframework.boot.context.config.ConfigDataImporter.resolveAndLoad(ConfigDataImporter.java:87)
+	at deployment.deployOnWildfly-0.0.1-SNAPSHOT.war//org.springframework.boot.context.config.ConfigDataEnvironmentContributors.withProcessedImports(ConfigDataEnvironmentContributors.java:115)
+	at deployment.deployOnWildfly-0.0.1-SNAPSHOT.war//org.springframework.boot.context.config.ConfigDataEnvironment.processInitial(ConfigDataEnvironment.java:242)
+	at deployment.deployOnWildfly-0.0.1-SNAPSHOT.war//org.springframework.boot.context.config.ConfigDataEnvironment.processAndApply(ConfigDataEnvironment.java:229)
+	at deployment.deployOnWildfly-0.0.1-SNAPSHOT.war//org.springframework.boot.context.config.ConfigDataEnvironmentPostProcessor.postProcessEnvironment(ConfigDataEnvironmentPostProcessor.java:96)
+	at deployment.deployOnWildfly-0.0.1-SNAPSHOT.war//org.springframework.boot.context.config.ConfigDataEnvironmentPostProcessor.postProcessEnvironment(ConfigDataEnvironmentPostProcessor.java:89)
+	at deployment.deployOnWildfly-0.0.1-SNAPSHOT.war//org.springframework.boot.env.EnvironmentPostProcessorApplicationListener.onApplicationEnvironmentPreparedEvent(EnvironmentPostProcessorApplicationListener.java:109)
+	at deployment.deployOnWildfly-0.0.1-SNAPSHOT.war//org.springframework.boot.env.EnvironmentPostProcessorApplicationListener.onApplicationEvent(EnvironmentPostProcessorApplicationListener.java:94)
+	at deployment.deployOnWildfly-0.0.1-SNAPSHOT.war//org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:172)
+	at deployment.deployOnWildfly-0.0.1-SNAPSHOT.war//org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:165)
+	at deployment.deployOnWildfly-0.0.1-SNAPSHOT.war//org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:143)
+	at deployment.deployOnWildfly-0.0.1-SNAPSHOT.war//org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:131)
+	at deployment.deployOnWildfly-0.0.1-SNAPSHOT.war//org.springframework.boot.context.event.EventPublishingRunListener.multicastInitialEvent(EventPublishingRunListener.java:136)
+	at deployment.deployOnWildfly-0.0.1-SNAPSHOT.war//org.springframework.boot.context.event.EventPublishingRunListener.environmentPrepared(EventPublishingRunListener.java:81)
+	at deployment.deployOnWildfly-0.0.1-SNAPSHOT.war//org.springframework.boot.SpringApplicationRunListeners.lambda$environmentPrepared$2(SpringApplicationRunListeners.java:64)
+	at java.base/java.lang.Iterable.forEach(Iterable.java:75)
+	at deployment.deployOnWildfly-0.0.1-SNAPSHOT.war//org.springframework.boot.SpringApplicationRunListeners.doWithListeners(SpringApplicationRunListeners.java:118)
+	at deployment.deployOnWildfly-0.0.1-SNAPSHOT.war//org.springframework.boot.SpringApplicationRunListeners.doWithListeners(SpringApplicationRunListeners.java:112)
+	at deployment.deployOnWildfly-0.0.1-SNAPSHOT.war//org.springframework.boot.SpringApplicationRunListeners.environmentPrepared(SpringApplicationRunListeners.java:63)
+	at deployment.deployOnWildfly-0.0.1-SNAPSHOT.war//org.springframework.boot.SpringApplication.prepareEnvironment(SpringApplication.java:354)
+	at deployment.deployOnWildfly-0.0.1-SNAPSHOT.war//org.springframework.boot.SpringApplication.run(SpringApplication.java:305)
+	at deployment.deployOnWildfly-0.0.1-SNAPSHOT.war//org.springframework.boot.web.servlet.support.SpringBootServletInitializer.run(SpringBootServletInitializer.java:174)
+	at deployment.deployOnWildfly-0.0.1-SNAPSHOT.war//org.springframework.boot.web.servlet.support.SpringBootServletInitializer.createRootApplicationContext(SpringBootServletInitializer.java:154)
+	at deployment.deployOnWildfly-0.0.1-SNAPSHOT.war//org.springframework.boot.web.servlet.support.SpringBootServletInitializer.onStartup(SpringBootServletInitializer.java:96)
+	at deployment.deployOnWildfly-0.0.1-SNAPSHOT.war//org.springframework.web.SpringServletContainerInitializer.onStartup(SpringServletContainerInitializer.java:171)
+	at io.undertow.servlet@2.3.5.Final//io.undertow.servlet.core.DeploymentManagerImpl$1.call(DeploymentManagerImpl.java:204)
+	at io.undertow.servlet@2.3.5.Final//io.undertow.servlet.core.DeploymentManagerImpl$1.call(DeploymentManagerImpl.java:187)
+	at io.undertow.servlet@2.3.5.Final//io.undertow.servlet.core.ServletRequestContextThreadSetupAction$1.call(ServletRequestContextThreadSetupAction.java:42)
+	at io.undertow.servlet@2.3.5.Final//io.undertow.servlet.core.ContextClassLoaderSetupAction$1.call(ContextClassLoaderSetupAction.java:43)
+	at org.wildfly.extension.undertow@28.0.0.Final//org.wildfly.extension.undertow.deployment.UndertowDeploymentInfoService$UndertowThreadSetupAction.lambda$create$0(UndertowDeploymentInfoService.java:1430)
+	at org.wildfly.extension.undertow@28.0.0.Final//org.wildfly.extension.undertow.deployment.UndertowDeploymentInfoService$UndertowThreadSetupAction.lambda$create$0(UndertowDeploymentInfoService.java:1430)
+	at org.wildfly.extension.undertow@28.0.0.Final//org.wildfly.extension.undertow.deployment.UndertowDeploymentInfoService$UndertowThreadSetupAction.lambda$create$0(UndertowDeploymentInfoService.java:1430)
+	at org.wildfly.extension.undertow@28.0.0.Final//org.wildfly.extension.undertow.deployment.UndertowDeploymentInfoService$UndertowThreadSetupAction.lambda$create$0(UndertowDeploymentInfoService.java:1430)
+	at io.undertow.servlet@2.3.5.Final//io.undertow.servlet.core.DeploymentManagerImpl.deploy(DeploymentManagerImpl.java:255)
+	at org.wildfly.extension.undertow@28.0.0.Final//org.wildfly.extension.undertow.deployment.UndertowDeploymentService.startContext(UndertowDeploymentService.java:105)
+	at org.wildfly.extension.undertow@28.0.0.Final//org.wildfly.extension.undertow.deployment.UndertowDeploymentService$1.run(UndertowDeploymentService.java:87)
+	... 8 more
+Caused by: java.lang.IllegalStateException: Could not detect JBoss VFS infrastructure
+	at deployment.deployOnWildfly-0.0.1-SNAPSHOT.war//org.springframework.core.io.VfsUtils.<clinit>(VfsUtils.java:96)
+	... 53 more
+Caused by: java.lang.ClassNotFoundException: org.jboss.vfs.VFS from [Module "deployment.deployOnWildfly-0.0.1-SNAPSHOT.war" from Service Module Loader]
+	at org.jboss.modules.ModuleClassLoader.findClass(ModuleClassLoader.java:200)
+	at org.jboss.modules.ConcurrentClassLoader.performLoadClassUnchecked(ConcurrentClassLoader.java:410)
+	at org.jboss.modules.ConcurrentClassLoader.performLoadClass(ConcurrentClassLoader.java:398)
+	at org.jboss.modules.ConcurrentClassLoader.loadClass(ConcurrentClassLoader.java:116)
+	at deployment.deployOnWildfly-0.0.1-SNAPSHOT.war//org.springframework.core.io.VfsUtils.<clinit>(VfsUtils.java:73)
+	... 53 more
+
+2023-06-03 08:45:03,576 ERROR [org.jboss.as.controller.management-operation] (DeploymentScanner-threads - 1) WFLYCTL0013: Operation ("deploy") failed - address: ([("deployment" => "deployOnWildfly-0.0.1-SNAPSHOT.war")]) - failure description: {"WFLYCTL0080: Failed services" => {"jboss.deployment.unit.\"deployOnWildfly-0.0.1-SNAPSHOT.war\".undertow-deployment" => "java.lang.ExceptionInInitializerError
+    Caused by: java.lang.ExceptionInInitializerError
+    Caused by: java.lang.IllegalStateException: Could not detect JBoss VFS infrastructure
+    Caused by: java.lang.ClassNotFoundException: org.jboss.vfs.VFS from [Module \"deployment.deployOnWildfly-0.0.1-SNAPSHOT.war\" from Service Module Loader]"}}
+2023-06-03 08:54:48,888 INFO  [org.jboss.modules] (main) JBoss Modules version 2.1.0.Final
+2023-06-03 08:54:49,395 INFO  [org.jboss.msc] (main) JBoss MSC version 1.5.0.Final
+2023-06-03 08:54:49,403 INFO  [org.jboss.threads] (main) JBoss Threads version 2.4.0.Final
+2023-06-03 08:54:49,506 INFO  [org.jboss.as] (MSC service thread 1-1) WFLYSRV0049: WildFly Full 28.0.0.Final (WildFly Core 20.0.1.Final) starting
+2023-06-03 08:54:49,508 DEBUG [org.jboss.as.config] (MSC service thread 1-1) Configured system properties:
+	file.encoding = Cp1252
+	file.separator = \
+	java.awt.headless = true
+	java.class.path = C:\Data\Docs\Projects\Spring boot\Test_Deploy_SpringBoot_On_Wildfly\wildfly-28.0.0.Final\jboss-modules.jar
+	java.class.version = 61.0
+	java.home = C:\Program Files\Java\jdk-17
+	java.io.tmpdir = C:\Users\Chace\AppData\Local\Temp\
+	java.library.path = C:\Program Files\Java\jdk-17\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files\BellSoft\LibericaJDK-17\bin\;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\dotnet\;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\Program Files\Java\jdk1.8.0_271\bin;C:\Program Files\Java\jre1.8.0_271\bin;C:\Program Files\Java\jdk-17\bin;C:\Program Files\apache-maven-3.9.2\bin;C:\Users\Chace\AppData\Local\Programs\Python\Python39\Scripts\;C:\Users\Chace\AppData\Local\Programs\Python\Python39\;C:\Users\Chace\AppData\Local\Microsoft\WindowsApps;C:\Users\Chace\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Chace\.dotnet\tools;C:\Users\Chace\AppData\Roaming\npm;C:\Users\Chace\AppData\Local\JetBrains\Toolbox\scripts;.
+	java.net.preferIPv4Stack = true
+	java.runtime.name = Java(TM) SE Runtime Environment
+	java.runtime.version = 17.0.6+9-LTS-190
+	java.security.manager = allow
+	java.specification.name = Java Platform API Specification
+	java.specification.vendor = Oracle Corporation
+	java.specification.version = 17
+	java.util.logging.manager = org.jboss.logmanager.LogManager
+	java.vendor = Oracle Corporation
+	java.vendor.url = https://java.oracle.com/
+	java.vendor.url.bug = https://bugreport.java.com/bugreport/
+	java.version = 17.0.6
+	java.version.date = 2023-01-17
+	java.vm.compressedOopsMode = 32-bit
+	java.vm.info = mixed mode, sharing
+	java.vm.name = Java HotSpot(TM) 64-Bit Server VM
+	java.vm.specification.name = Java Virtual Machine Specification
+	java.vm.specification.vendor = Oracle Corporation
+	java.vm.specification.version = 17
+	java.vm.vendor = Oracle Corporation
+	java.vm.version = 17.0.6+9-LTS-190
+	javax.management.builder.initial = org.jboss.as.jmx.PluggableMBeanServerBuilder
+	jboss.home.dir = C:\Data\Docs\Projects\Spring boot\Test_Deploy_SpringBoot_On_Wildfly\wildfly-28.0.0.Final
+	jboss.host.name = ccom
+	jboss.modules.dir = C:\Data\Docs\Projects\Spring boot\Test_Deploy_SpringBoot_On_Wildfly\wildfly-28.0.0.Final\modules
+	jboss.modules.system.pkgs = org.jboss.byteman
+	jboss.node.name = ccom
+	jboss.qualified.host.name = ccom
+	jboss.server.base.dir = C:\Data\Docs\Projects\Spring boot\Test_Deploy_SpringBoot_On_Wildfly\wildfly-28.0.0.Final\standalone
+	jboss.server.config.dir = C:\Data\Docs\Projects\Spring boot\Test_Deploy_SpringBoot_On_Wildfly\wildfly-28.0.0.Final\standalone\configuration
+	jboss.server.data.dir = C:\Data\Docs\Projects\Spring boot\Test_Deploy_SpringBoot_On_Wildfly\wildfly-28.0.0.Final\standalone\data
+	jboss.server.deploy.dir = C:\Data\Docs\Projects\Spring boot\Test_Deploy_SpringBoot_On_Wildfly\wildfly-28.0.0.Final\standalone\data\content
+	jboss.server.log.dir = C:\Data\Docs\Projects\Spring boot\Test_Deploy_SpringBoot_On_Wildfly\wildfly-28.0.0.Final\standalone\log
+	jboss.server.name = ccom
+	jboss.server.persist.config = true
+	jboss.server.temp.dir = C:\Data\Docs\Projects\Spring boot\Test_Deploy_SpringBoot_On_Wildfly\wildfly-28.0.0.Final\standalone\tmp
+	jdk.debug = release
+	line.separator = 
+
+	logging.configuration = file:C:\Data\Docs\Projects\Spring boot\Test_Deploy_SpringBoot_On_Wildfly\wildfly-28.0.0.Final\standalone\configuration/logging.properties
+	module.path = C:\Data\Docs\Projects\Spring boot\Test_Deploy_SpringBoot_On_Wildfly\wildfly-28.0.0.Final\modules
+	native.encoding = Cp1252
+	org.jboss.boot.log.file = C:\Data\Docs\Projects\Spring boot\Test_Deploy_SpringBoot_On_Wildfly\wildfly-28.0.0.Final\standalone\log\server.log
+	org.jboss.resolver.warning = true
+	os.arch = amd64
+	os.name = Windows 10
+	os.version = 10.0
+	path.separator = ;
+	program.name = standalone.bat
+	sun.arch.data.model = 64
+	sun.boot.library.path = C:\Program Files\Java\jdk-17\bin
+	sun.cpu.endian = little
+	sun.cpu.isalist = amd64
+	sun.io.unicode.encoding = UnicodeLittle
+	sun.java.command = C:\Data\Docs\Projects\Spring boot\Test_Deploy_SpringBoot_On_Wildfly\wildfly-28.0.0.Final\jboss-modules.jar -mp C:\Data\Docs\Projects\Spring boot\Test_Deploy_SpringBoot_On_Wildfly\wildfly-28.0.0.Final\modules org.jboss.as.standalone -Djboss.home.dir=C:\Data\Docs\Projects\Spring boot\Test_Deploy_SpringBoot_On_Wildfly\wildfly-28.0.0.Final
+	sun.java.launcher = SUN_STANDARD
+	sun.jnu.encoding = Cp1252
+	sun.management.compiler = HotSpot 64-Bit Tiered Compilers
+	sun.os.patch.level = 
+	user.country = US
+	user.country.format = CM
+	user.dir = C:\Data\Docs\Projects\Spring boot\Test_Deploy_SpringBoot_On_Wildfly\wildfly-28.0.0.Final\bin
+	user.home = C:\Users\Chace
+	user.language = en
+	user.language.format = fr
+	user.name = Chace
+	user.script = 
+	user.timezone = Africa/Libreville
+	user.variant = 
+2023-06-03 08:54:49,510 DEBUG [org.jboss.as.config] (MSC service thread 1-1) VM Arguments: -Dprogram.name=standalone.bat -Xms64M -Xmx512M -XX:MetaspaceSize=96M -XX:MaxMetaspaceSize=256m -Djava.net.preferIPv4Stack=true -Djboss.modules.system.pkgs=org.jboss.byteman -Djava.awt.headless=true --add-exports=java.desktop/sun.awt=ALL-UNNAMED --add-exports=java.naming/com.sun.jndi.ldap=ALL-UNNAMED --add-exports=java.naming/com.sun.jndi.url.ldap=ALL-UNNAMED --add-exports=java.naming/com.sun.jndi.url.ldaps=ALL-UNNAMED --add-exports=jdk.naming.dns/com.sun.jndi.dns=ALL-UNNAMED --add-opens=java.base/java.lang=ALL-UNNAMED --add-opens=java.base/java.lang.invoke=ALL-UNNAMED --add-opens=java.base/java.io=ALL-UNNAMED --add-opens=java.base/java.lang.reflect=ALL-UNNAMED --add-opens=java.base/java.security=ALL-UNNAMED --add-opens=java.base/java.util=ALL-UNNAMED --add-opens=java.base/java.util.concurrent=ALL-UNNAMED --add-opens=java.management/javax.management=ALL-UNNAMED --add-opens=java.naming/javax.naming=ALL-UNNAMED -Djava.security.manager=allow -Dorg.jboss.boot.log.file=C:\Data\Docs\Projects\Spring boot\Test_Deploy_SpringBoot_On_Wildfly\wildfly-28.0.0.Final\standalone\log\server.log -Dlogging.configuration=file:C:\Data\Docs\Projects\Spring boot\Test_Deploy_SpringBoot_On_Wildfly\wildfly-28.0.0.Final\standalone\configuration/logging.properties 
+2023-06-03 08:54:50,296 INFO  [org.wildfly.security] (ServerService Thread Pool -- 28) ELY00001: WildFly Elytron version 2.1.0.Final
+2023-06-03 08:54:50,745 INFO  [org.jboss.as.controller.management-deprecated] (ServerService Thread Pool -- 30) WFLYCTL0028: Attribute 'cluster' in the resource at address '/subsystem=ejb3/service=remote' is deprecated, and may be removed in a future version. See the attribute description in the output of the read-resource-description operation to learn more about the deprecation.
+2023-06-03 08:54:50,755 INFO  [org.jboss.as.server.deployment.scanner] (DeploymentScanner-threads - 1) WFLYDS0015: Re-attempting failed deployment deployOnWildfly-0.0.1-SNAPSHOT.war
+2023-06-03 08:54:50,989 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0039: Creating http management service using socket-binding (management-http)
+2023-06-03 08:54:51,000 INFO  [org.xnio] (MSC service thread 1-8) XNIO version 3.8.9.Final
+2023-06-03 08:54:51,005 INFO  [org.xnio.nio] (MSC service thread 1-8) XNIO NIO Implementation Version 3.8.9.Final
+2023-06-03 08:54:51,042 INFO  [org.jboss.as.jaxrs] (ServerService Thread Pool -- 57) WFLYRS0016: RESTEasy version 6.2.3.Final
+2023-06-03 08:54:51,043 WARN  [org.jboss.as.txn] (ServerService Thread Pool -- 74) WFLYTX0013: The node-identifier attribute on the /subsystem=transactions is set to the default value. This is a danger for environments running multiple servers. Please make sure the attribute value is unique.
+2023-06-03 08:54:51,050 INFO  [org.wildfly.extension.microprofile.jwt.smallrye] (ServerService Thread Pool -- 66) WFLYJWT0001: Activating MicroProfile JWT Subsystem
+2023-06-03 08:54:51,051 INFO  [org.wildfly.extension.io] (ServerService Thread Pool -- 56) WFLYIO001: Worker 'default' has auto-configured to 16 IO threads with 128 max task threads based on your 8 available processors
+2023-06-03 08:54:51,054 INFO  [org.wildfly.extension.elytron.oidc._private] (ServerService Thread Pool -- 53) WFLYOIDC0001: Activating WildFly Elytron OIDC Subsystem
+2023-06-03 08:54:51,055 INFO  [org.wildfly.extension.microprofile.config.smallrye] (ServerService Thread Pool -- 65) WFLYCONF0001: Activating MicroProfile Config Subsystem
+2023-06-03 08:54:51,058 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 55) WFLYCLINF0001: Activating Infinispan subsystem.
+2023-06-03 08:54:51,060 INFO  [org.wildfly.extension.health] (ServerService Thread Pool -- 54) WFLYHEALTH0001: Activating Base Health Subsystem
+2023-06-03 08:54:51,078 INFO  [org.jboss.as.naming] (ServerService Thread Pool -- 67) WFLYNAM0001: Activating Naming Subsystem
+2023-06-03 08:54:51,078 INFO  [org.jboss.as.webservices] (ServerService Thread Pool -- 76) WFLYWS0002: Activating WebServices Extension
+2023-06-03 08:54:51,087 INFO  [org.jboss.as.jsf] (ServerService Thread Pool -- 62) WFLYJSF0007: Activated the following Jakarta Server Faces Implementations: [main]
+2023-06-03 08:54:51,092 INFO  [org.wildfly.extension.metrics] (ServerService Thread Pool -- 64) WFLYMETRICS0001: Activating Base Metrics Subsystem
+2023-06-03 08:54:51,119 INFO  [org.jboss.remoting] (MSC service thread 1-4) JBoss Remoting version 5.0.27.Final
+2023-06-03 08:54:51,173 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-8) WFLYUT0003: Undertow 2.3.5.Final starting
+2023-06-03 08:54:51,174 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-5) WFLYSRV0027: Starting deployment of "deployOnWildfly-0.0.1-SNAPSHOT.war" (runtime-name: "deployOnWildfly-0.0.1-SNAPSHOT.war")
+2023-06-03 08:54:51,209 INFO  [org.jboss.as.connector] (MSC service thread 1-6) WFLYJCA0009: Starting Jakarta Connectors Subsystem (WildFly/IronJacamar 3.0.2.Final)
+2023-06-03 08:54:51,210 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 44) WFLYJCA0004: Deploying JDBC-compliant driver class org.h2.Driver (version 2.1)
+2023-06-03 08:54:51,226 INFO  [org.jboss.as.naming] (MSC service thread 1-1) WFLYNAM0003: Starting Naming Service
+2023-06-03 08:54:51,239 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-8) WFLYJCA0018: Started Driver service with driver-name = h2
+2023-06-03 08:54:51,311 WARN  [org.wildfly.extension.elytron] (MSC service thread 1-1) WFLYELY00023: KeyStore file 'C:\Data\Docs\Projects\Spring boot\Test_Deploy_SpringBoot_On_Wildfly\wildfly-28.0.0.Final\standalone\configuration\application.keystore' does not exist. Used blank.
+2023-06-03 08:54:51,315 INFO  [org.jboss.as.mail.extension] (MSC service thread 1-8) WFLYMAIL0001: Bound mail session [java:jboss/mail/Default]
+2023-06-03 08:54:51,318 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 75) WFLYUT0014: Creating file handler for path 'C:\Data\Docs\Projects\Spring boot\Test_Deploy_SpringBoot_On_Wildfly\wildfly-28.0.0.Final/welcome-content' with options [directory-listing: 'false', follow-symlink: 'false', case-sensitive: 'true', safe-symlink-paths: '[]']
+2023-06-03 08:54:51,332 WARN  [org.wildfly.extension.elytron] (MSC service thread 1-1) WFLYELY01084: KeyStore C:\Data\Docs\Projects\Spring boot\Test_Deploy_SpringBoot_On_Wildfly\wildfly-28.0.0.Final\standalone\configuration\application.keystore not found, it will be auto-generated on first use with a self-signed certificate for host localhost
+2023-06-03 08:54:51,354 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-6) WFLYUT0012: Started server default-server.
+2023-06-03 08:54:51,365 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-6) Queuing requests.
+2023-06-03 08:54:51,366 INFO  [org.jboss.as.ejb3] (MSC service thread 1-8) WFLYEJB0481: Strict pool slsb-strict-max-pool is using a max instance size of 128 (per class), which is derived from thread worker pool sizing.
+2023-06-03 08:54:51,366 INFO  [org.jboss.as.ejb3] (MSC service thread 1-1) WFLYEJB0482: Strict pool mdb-strict-max-pool is using a max instance size of 32 (per class), which is derived from the number of CPUs on this host.
+2023-06-03 08:54:51,367 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-6) WFLYUT0018: Host default-host starting
+2023-06-03 08:54:51,463 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-7) WFLYUT0006: Undertow HTTP listener default listening on 127.0.0.1:8080
+2023-06-03 08:54:51,570 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-2) WFLYUT0006: Undertow HTTPS listener https listening on 127.0.0.1:8443
+2023-06-03 08:54:51,608 INFO  [org.jboss.as.ejb3] (MSC service thread 1-7) WFLYEJB0493: Jakarta Enterprise Beans subsystem suspension complete
+2023-06-03 08:54:51,632 INFO  [org.jboss.as.patching] (MSC service thread 1-7) WFLYPAT0050: WildFly Full cumulative patch ID is: base, one-off patches include: none
+2023-06-03 08:54:51,636 INFO  [org.jboss.as.server.deployment.scanner] (MSC service thread 1-4) WFLYDS0013: Started FileSystemDeploymentService for directory C:\Data\Docs\Projects\Spring boot\Test_Deploy_SpringBoot_On_Wildfly\wildfly-28.0.0.Final\standalone\deployments
+2023-06-03 08:54:51,657 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-3) WFLYJCA0001: Bound data source [java:jboss/datasources/ExampleDS]
+2023-06-03 08:54:51,701 INFO  [org.jboss.ws.common.management] (MSC service thread 1-6) JBWS022052: Starting JBossWS 6.2.0.Final (Apache CXF 4.0.0) 
+2023-06-03 08:54:55,545 INFO  [org.jboss.weld.deployer] (MSC service thread 1-5) WFLYWELD0003: Processing weld deployment deployOnWildfly-0.0.1-SNAPSHOT.war
+2023-06-03 08:54:55,623 INFO  [org.hibernate.validator.internal.util.Version] (MSC service thread 1-5) HV000001: Hibernate Validator 8.0.0.Final
+2023-06-03 08:54:55,930 INFO  [org.jboss.weld.Version] (MSC service thread 1-5) WELD-000900: 5.1.0 (Final)
+2023-06-03 08:54:56,620 INFO  [io.undertow.servlet] (ServerService Thread Pool -- 91) 2 Spring WebApplicationInitializers detected on classpath
+2023-06-03 08:54:56,866 ERROR [org.springframework.boot.SpringApplication] (ServerService Thread Pool -- 91) Application run failed: java.lang.ExceptionInInitializerError
+	at deployment.deployOnWildfly-0.0.1-SNAPSHOT.war//org.springframework.core.io.AbstractFileResolvingResource$VfsResourceDelegate.getResource(AbstractFileResolvingResource.java:329)
+	at deployment.deployOnWildfly-0.0.1-SNAPSHOT.war//org.springframework.core.io.AbstractFileResolvingResource.getFile(AbstractFileResolvingResource.java:171)
+	at deployment.deployOnWildfly-0.0.1-SNAPSHOT.war//org.springframework.boot.context.config.StandardConfigDataResource.getUnderlyingFile(StandardConfigDataResource.java:134)
+	at deployment.deployOnWildfly-0.0.1-SNAPSHOT.war//org.springframework.boot.context.config.StandardConfigDataResource.hashCode(StandardConfigDataResource.java:114)
+	at java.base/java.util.HashMap.hash(HashMap.java:338)
+	at java.base/java.util.HashMap.getNode(HashMap.java:568)
+	at java.base/java.util.HashMap.containsKey(HashMap.java:594)
+	at java.base/java.util.HashSet.contains(HashSet.java:205)
+	at deployment.deployOnWildfly-0.0.1-SNAPSHOT.war//org.springframework.boot.context.config.ConfigDataImporter.load(ConfigDataImporter.java:125)
+	at deployment.deployOnWildfly-0.0.1-SNAPSHOT.war//org.springframework.boot.context.config.ConfigDataImporter.resolveAndLoad(ConfigDataImporter.java:87)
+	at deployment.deployOnWildfly-0.0.1-SNAPSHOT.war//org.springframework.boot.context.config.ConfigDataEnvironmentContributors.withProcessedImports(ConfigDataEnvironmentContributors.java:115)
+	at deployment.deployOnWildfly-0.0.1-SNAPSHOT.war//org.springframework.boot.context.config.ConfigDataEnvironment.processInitial(ConfigDataEnvironment.java:242)
+	at deployment.deployOnWildfly-0.0.1-SNAPSHOT.war//org.springframework.boot.context.config.ConfigDataEnvironment.processAndApply(ConfigDataEnvironment.java:229)
+	at deployment.deployOnWildfly-0.0.1-SNAPSHOT.war//org.springframework.boot.context.config.ConfigDataEnvironmentPostProcessor.postProcessEnvironment(ConfigDataEnvironmentPostProcessor.java:96)
+	at deployment.deployOnWildfly-0.0.1-SNAPSHOT.war//org.springframework.boot.context.config.ConfigDataEnvironmentPostProcessor.postProcessEnvironment(ConfigDataEnvironmentPostProcessor.java:89)
+	at deployment.deployOnWildfly-0.0.1-SNAPSHOT.war//org.springframework.boot.env.EnvironmentPostProcessorApplicationListener.onApplicationEnvironmentPreparedEvent(EnvironmentPostProcessorApplicationListener.java:109)
+	at deployment.deployOnWildfly-0.0.1-SNAPSHOT.war//org.springframework.boot.env.EnvironmentPostProcessorApplicationListener.onApplicationEvent(EnvironmentPostProcessorApplicationListener.java:94)
+	at deployment.deployOnWildfly-0.0.1-SNAPSHOT.war//org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:172)
+	at deployment.deployOnWildfly-0.0.1-SNAPSHOT.war//org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:165)
+	at deployment.deployOnWildfly-0.0.1-SNAPSHOT.war//org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:143)
+	at deployment.deployOnWildfly-0.0.1-SNAPSHOT.war//org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:131)
+	at deployment.deployOnWildfly-0.0.1-SNAPSHOT.war//org.springframework.boot.context.event.EventPublishingRunListener.multicastInitialEvent(EventPublishingRunListener.java:136)
+	at deployment.deployOnWildfly-0.0.1-SNAPSHOT.war//org.springframework.boot.context.event.EventPublishingRunListener.environmentPrepared(EventPublishingRunListener.java:81)
+	at deployment.deployOnWildfly-0.0.1-SNAPSHOT.war//org.springframework.boot.SpringApplicationRunListeners.lambda$environmentPrepared$2(SpringApplicationRunListeners.java:64)
+	at java.base/java.lang.Iterable.forEach(Iterable.java:75)
+	at deployment.deployOnWildfly-0.0.1-SNAPSHOT.war//org.springframework.boot.SpringApplicationRunListeners.doWithListeners(SpringApplicationRunListeners.java:118)
+	at deployment.deployOnWildfly-0.0.1-SNAPSHOT.war//org.springframework.boot.SpringApplicationRunListeners.doWithListeners(SpringApplicationRunListeners.java:112)
+	at deployment.deployOnWildfly-0.0.1-SNAPSHOT.war//org.springframework.boot.SpringApplicationRunListeners.environmentPrepared(SpringApplicationRunListeners.java:63)
+	at deployment.deployOnWildfly-0.0.1-SNAPSHOT.war//org.springframework.boot.SpringApplication.prepareEnvironment(SpringApplication.java:354)
+	at deployment.deployOnWildfly-0.0.1-SNAPSHOT.war//org.springframework.boot.SpringApplication.run(SpringApplication.java:305)
+	at deployment.deployOnWildfly-0.0.1-SNAPSHOT.war//org.springframework.boot.web.servlet.support.SpringBootServletInitializer.run(SpringBootServletInitializer.java:174)
+	at deployment.deployOnWildfly-0.0.1-SNAPSHOT.war//org.springframework.boot.web.servlet.support.SpringBootServletInitializer.createRootApplicationContext(SpringBootServletInitializer.java:154)
+	at deployment.deployOnWildfly-0.0.1-SNAPSHOT.war//org.springframework.boot.web.servlet.support.SpringBootServletInitializer.onStartup(SpringBootServletInitializer.java:96)
+	at deployment.deployOnWildfly-0.0.1-SNAPSHOT.war//org.springframework.web.SpringServletContainerInitializer.onStartup(SpringServletContainerInitializer.java:171)
+	at io.undertow.servlet@2.3.5.Final//io.undertow.servlet.core.DeploymentManagerImpl$1.call(DeploymentManagerImpl.java:204)
+	at io.undertow.servlet@2.3.5.Final//io.undertow.servlet.core.DeploymentManagerImpl$1.call(DeploymentManagerImpl.java:187)
+	at io.undertow.servlet@2.3.5.Final//io.undertow.servlet.core.ServletRequestContextThreadSetupAction$1.call(ServletRequestContextThreadSetupAction.java:42)
+	at io.undertow.servlet@2.3.5.Final//io.undertow.servlet.core.ContextClassLoaderSetupAction$1.call(ContextClassLoaderSetupAction.java:43)
+	at org.wildfly.extension.undertow@28.0.0.Final//org.wildfly.extension.undertow.deployment.UndertowDeploymentInfoService$UndertowThreadSetupAction.lambda$create$0(UndertowDeploymentInfoService.java:1430)
+	at org.wildfly.extension.undertow@28.0.0.Final//org.wildfly.extension.undertow.deployment.UndertowDeploymentInfoService$UndertowThreadSetupAction.lambda$create$0(UndertowDeploymentInfoService.java:1430)
+	at org.wildfly.extension.undertow@28.0.0.Final//org.wildfly.extension.undertow.deployment.UndertowDeploymentInfoService$UndertowThreadSetupAction.lambda$create$0(UndertowDeploymentInfoService.java:1430)
+	at org.wildfly.extension.undertow@28.0.0.Final//org.wildfly.extension.undertow.deployment.UndertowDeploymentInfoService$UndertowThreadSetupAction.lambda$create$0(UndertowDeploymentInfoService.java:1430)
+	at io.undertow.servlet@2.3.5.Final//io.undertow.servlet.core.DeploymentManagerImpl.deploy(DeploymentManagerImpl.java:255)
+	at org.wildfly.extension.undertow@28.0.0.Final//org.wildfly.extension.undertow.deployment.UndertowDeploymentService.startContext(UndertowDeploymentService.java:105)
+	at org.wildfly.extension.undertow@28.0.0.Final//org.wildfly.extension.undertow.deployment.UndertowDeploymentService$1.run(UndertowDeploymentService.java:87)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at org.jboss.threads@2.4.0.Final//org.jboss.threads.ContextClassLoaderSavingRunnable.run(ContextClassLoaderSavingRunnable.java:35)
+	at org.jboss.threads@2.4.0.Final//org.jboss.threads.EnhancedQueueExecutor.safeRun(EnhancedQueueExecutor.java:1990)
+	at org.jboss.threads@2.4.0.Final//org.jboss.threads.EnhancedQueueExecutor$ThreadBody.doRunTask(EnhancedQueueExecutor.java:1486)
+	at org.jboss.threads@2.4.0.Final//org.jboss.threads.EnhancedQueueExecutor$ThreadBody.run(EnhancedQueueExecutor.java:1377)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+	at org.jboss.threads@2.4.0.Final//org.jboss.threads.JBossThread.run(JBossThread.java:513)
+Caused by: java.lang.IllegalStateException: Could not detect JBoss VFS infrastructure
+	at deployment.deployOnWildfly-0.0.1-SNAPSHOT.war//org.springframework.core.io.VfsUtils.<clinit>(VfsUtils.java:96)
+	... 53 more
+Caused by: java.lang.ClassNotFoundException: org.jboss.vfs.VFS from [Module "deployment.deployOnWildfly-0.0.1-SNAPSHOT.war" from Service Module Loader]
+	at org.jboss.modules.ModuleClassLoader.findClass(ModuleClassLoader.java:200)
+	at org.jboss.modules.ConcurrentClassLoader.performLoadClassUnchecked(ConcurrentClassLoader.java:410)
+	at org.jboss.modules.ConcurrentClassLoader.performLoadClass(ConcurrentClassLoader.java:398)
+	at org.jboss.modules.ConcurrentClassLoader.loadClass(ConcurrentClassLoader.java:116)
+	at deployment.deployOnWildfly-0.0.1-SNAPSHOT.war//org.springframework.core.io.VfsUtils.<clinit>(VfsUtils.java:73)
+	... 53 more
+
+2023-06-03 08:54:56,868 ERROR [org.jboss.msc.service.fail] (ServerService Thread Pool -- 91) MSC000001: Failed to start service jboss.deployment.unit."deployOnWildfly-0.0.1-SNAPSHOT.war".undertow-deployment: org.jboss.msc.service.StartException in service jboss.deployment.unit."deployOnWildfly-0.0.1-SNAPSHOT.war".undertow-deployment: java.lang.ExceptionInInitializerError
+	at org.wildfly.extension.undertow@28.0.0.Final//org.wildfly.extension.undertow.deployment.UndertowDeploymentService$1.run(UndertowDeploymentService.java:90)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at org.jboss.threads@2.4.0.Final//org.jboss.threads.ContextClassLoaderSavingRunnable.run(ContextClassLoaderSavingRunnable.java:35)
+	at org.jboss.threads@2.4.0.Final//org.jboss.threads.EnhancedQueueExecutor.safeRun(EnhancedQueueExecutor.java:1990)
+	at org.jboss.threads@2.4.0.Final//org.jboss.threads.EnhancedQueueExecutor$ThreadBody.doRunTask(EnhancedQueueExecutor.java:1486)
+	at org.jboss.threads@2.4.0.Final//org.jboss.threads.EnhancedQueueExecutor$ThreadBody.run(EnhancedQueueExecutor.java:1377)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+	at org.jboss.threads@2.4.0.Final//org.jboss.threads.JBossThread.run(JBossThread.java:513)
+Caused by: java.lang.ExceptionInInitializerError
+	at deployment.deployOnWildfly-0.0.1-SNAPSHOT.war//org.springframework.core.io.AbstractFileResolvingResource$VfsResourceDelegate.getResource(AbstractFileResolvingResource.java:329)
+	at deployment.deployOnWildfly-0.0.1-SNAPSHOT.war//org.springframework.core.io.AbstractFileResolvingResource.getFile(AbstractFileResolvingResource.java:171)
+	at deployment.deployOnWildfly-0.0.1-SNAPSHOT.war//org.springframework.boot.context.config.StandardConfigDataResource.getUnderlyingFile(StandardConfigDataResource.java:134)
+	at deployment.deployOnWildfly-0.0.1-SNAPSHOT.war//org.springframework.boot.context.config.StandardConfigDataResource.hashCode(StandardConfigDataResource.java:114)
+	at java.base/java.util.HashMap.hash(HashMap.java:338)
+	at java.base/java.util.HashMap.getNode(HashMap.java:568)
+	at java.base/java.util.HashMap.containsKey(HashMap.java:594)
+	at java.base/java.util.HashSet.contains(HashSet.java:205)
+	at deployment.deployOnWildfly-0.0.1-SNAPSHOT.war//org.springframework.boot.context.config.ConfigDataImporter.load(ConfigDataImporter.java:125)
+	at deployment.deployOnWildfly-0.0.1-SNAPSHOT.war//org.springframework.boot.context.config.ConfigDataImporter.resolveAndLoad(ConfigDataImporter.java:87)
+	at deployment.deployOnWildfly-0.0.1-SNAPSHOT.war//org.springframework.boot.context.config.ConfigDataEnvironmentContributors.withProcessedImports(ConfigDataEnvironmentContributors.java:115)
+	at deployment.deployOnWildfly-0.0.1-SNAPSHOT.war//org.springframework.boot.context.config.ConfigDataEnvironment.processInitial(ConfigDataEnvironment.java:242)
+	at deployment.deployOnWildfly-0.0.1-SNAPSHOT.war//org.springframework.boot.context.config.ConfigDataEnvironment.processAndApply(ConfigDataEnvironment.java:229)
+	at deployment.deployOnWildfly-0.0.1-SNAPSHOT.war//org.springframework.boot.context.config.ConfigDataEnvironmentPostProcessor.postProcessEnvironment(ConfigDataEnvironmentPostProcessor.java:96)
+	at deployment.deployOnWildfly-0.0.1-SNAPSHOT.war//org.springframework.boot.context.config.ConfigDataEnvironmentPostProcessor.postProcessEnvironment(ConfigDataEnvironmentPostProcessor.java:89)
+	at deployment.deployOnWildfly-0.0.1-SNAPSHOT.war//org.springframework.boot.env.EnvironmentPostProcessorApplicationListener.onApplicationEnvironmentPreparedEvent(EnvironmentPostProcessorApplicationListener.java:109)
+	at deployment.deployOnWildfly-0.0.1-SNAPSHOT.war//org.springframework.boot.env.EnvironmentPostProcessorApplicationListener.onApplicationEvent(EnvironmentPostProcessorApplicationListener.java:94)
+	at deployment.deployOnWildfly-0.0.1-SNAPSHOT.war//org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:172)
+	at deployment.deployOnWildfly-0.0.1-SNAPSHOT.war//org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:165)
+	at deployment.deployOnWildfly-0.0.1-SNAPSHOT.war//org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:143)
+	at deployment.deployOnWildfly-0.0.1-SNAPSHOT.war//org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:131)
+	at deployment.deployOnWildfly-0.0.1-SNAPSHOT.war//org.springframework.boot.context.event.EventPublishingRunListener.multicastInitialEvent(EventPublishingRunListener.java:136)
+	at deployment.deployOnWildfly-0.0.1-SNAPSHOT.war//org.springframework.boot.context.event.EventPublishingRunListener.environmentPrepared(EventPublishingRunListener.java:81)
+	at deployment.deployOnWildfly-0.0.1-SNAPSHOT.war//org.springframework.boot.SpringApplicationRunListeners.lambda$environmentPrepared$2(SpringApplicationRunListeners.java:64)
+	at java.base/java.lang.Iterable.forEach(Iterable.java:75)
+	at deployment.deployOnWildfly-0.0.1-SNAPSHOT.war//org.springframework.boot.SpringApplicationRunListeners.doWithListeners(SpringApplicationRunListeners.java:118)
+	at deployment.deployOnWildfly-0.0.1-SNAPSHOT.war//org.springframework.boot.SpringApplicationRunListeners.doWithListeners(SpringApplicationRunListeners.java:112)
+	at deployment.deployOnWildfly-0.0.1-SNAPSHOT.war//org.springframework.boot.SpringApplicationRunListeners.environmentPrepared(SpringApplicationRunListeners.java:63)
+	at deployment.deployOnWildfly-0.0.1-SNAPSHOT.war//org.springframework.boot.SpringApplication.prepareEnvironment(SpringApplication.java:354)
+	at deployment.deployOnWildfly-0.0.1-SNAPSHOT.war//org.springframework.boot.SpringApplication.run(SpringApplication.java:305)
+	at deployment.deployOnWildfly-0.0.1-SNAPSHOT.war//org.springframework.boot.web.servlet.support.SpringBootServletInitializer.run(SpringBootServletInitializer.java:174)
+	at deployment.deployOnWildfly-0.0.1-SNAPSHOT.war//org.springframework.boot.web.servlet.support.SpringBootServletInitializer.createRootApplicationContext(SpringBootServletInitializer.java:154)
+	at deployment.deployOnWildfly-0.0.1-SNAPSHOT.war//org.springframework.boot.web.servlet.support.SpringBootServletInitializer.onStartup(SpringBootServletInitializer.java:96)
+	at deployment.deployOnWildfly-0.0.1-SNAPSHOT.war//org.springframework.web.SpringServletContainerInitializer.onStartup(SpringServletContainerInitializer.java:171)
+	at io.undertow.servlet@2.3.5.Final//io.undertow.servlet.core.DeploymentManagerImpl$1.call(DeploymentManagerImpl.java:204)
+	at io.undertow.servlet@2.3.5.Final//io.undertow.servlet.core.DeploymentManagerImpl$1.call(DeploymentManagerImpl.java:187)
+	at io.undertow.servlet@2.3.5.Final//io.undertow.servlet.core.ServletRequestContextThreadSetupAction$1.call(ServletRequestContextThreadSetupAction.java:42)
+	at io.undertow.servlet@2.3.5.Final//io.undertow.servlet.core.ContextClassLoaderSetupAction$1.call(ContextClassLoaderSetupAction.java:43)
+	at org.wildfly.extension.undertow@28.0.0.Final//org.wildfly.extension.undertow.deployment.UndertowDeploymentInfoService$UndertowThreadSetupAction.lambda$create$0(UndertowDeploymentInfoService.java:1430)
+	at org.wildfly.extension.undertow@28.0.0.Final//org.wildfly.extension.undertow.deployment.UndertowDeploymentInfoService$UndertowThreadSetupAction.lambda$create$0(UndertowDeploymentInfoService.java:1430)
+	at org.wildfly.extension.undertow@28.0.0.Final//org.wildfly.extension.undertow.deployment.UndertowDeploymentInfoService$UndertowThreadSetupAction.lambda$create$0(UndertowDeploymentInfoService.java:1430)
+	at org.wildfly.extension.undertow@28.0.0.Final//org.wildfly.extension.undertow.deployment.UndertowDeploymentInfoService$UndertowThreadSetupAction.lambda$create$0(UndertowDeploymentInfoService.java:1430)
+	at io.undertow.servlet@2.3.5.Final//io.undertow.servlet.core.DeploymentManagerImpl.deploy(DeploymentManagerImpl.java:255)
+	at org.wildfly.extension.undertow@28.0.0.Final//org.wildfly.extension.undertow.deployment.UndertowDeploymentService.startContext(UndertowDeploymentService.java:105)
+	at org.wildfly.extension.undertow@28.0.0.Final//org.wildfly.extension.undertow.deployment.UndertowDeploymentService$1.run(UndertowDeploymentService.java:87)
+	... 8 more
+Caused by: java.lang.IllegalStateException: Could not detect JBoss VFS infrastructure
+	at deployment.deployOnWildfly-0.0.1-SNAPSHOT.war//org.springframework.core.io.VfsUtils.<clinit>(VfsUtils.java:96)
+	... 53 more
+Caused by: java.lang.ClassNotFoundException: org.jboss.vfs.VFS from [Module "deployment.deployOnWildfly-0.0.1-SNAPSHOT.war" from Service Module Loader]
+	at org.jboss.modules.ModuleClassLoader.findClass(ModuleClassLoader.java:200)
+	at org.jboss.modules.ConcurrentClassLoader.performLoadClassUnchecked(ConcurrentClassLoader.java:410)
+	at org.jboss.modules.ConcurrentClassLoader.performLoadClass(ConcurrentClassLoader.java:398)
+	at org.jboss.modules.ConcurrentClassLoader.loadClass(ConcurrentClassLoader.java:116)
+	at deployment.deployOnWildfly-0.0.1-SNAPSHOT.war//org.springframework.core.io.VfsUtils.<clinit>(VfsUtils.java:73)
+	... 53 more
+
+2023-06-03 08:54:56,919 ERROR [org.jboss.as.controller.management-operation] (Controller Boot Thread) WFLYCTL0013: Operation ("deploy") failed - address: ([("deployment" => "deployOnWildfly-0.0.1-SNAPSHOT.war")]) - failure description: {"WFLYCTL0080: Failed services" => {"jboss.deployment.unit.\"deployOnWildfly-0.0.1-SNAPSHOT.war\".undertow-deployment" => "java.lang.ExceptionInInitializerError
+    Caused by: java.lang.ExceptionInInitializerError
+    Caused by: java.lang.IllegalStateException: Could not detect JBoss VFS infrastructure
+    Caused by: java.lang.ClassNotFoundException: org.jboss.vfs.VFS from [Module \"deployment.deployOnWildfly-0.0.1-SNAPSHOT.war\" from Service Module Loader]"}}
+2023-06-03 08:54:56,976 ERROR [org.jboss.as] (Controller Boot Thread) WFLYSRV0026: WildFly Full 28.0.0.Final (WildFly Core 20.0.1.Final) started (with errors) in 8338ms - Started 546 of 769 services (3 services failed or missing dependencies, 321 services are lazy, passive or on-demand) - Server configuration file in use: standalone.xml
+2023-06-03 08:55:23,249 INFO  [org.jboss.modules] (main) JBoss Modules version 2.1.0.Final
+2023-06-03 08:55:23,751 INFO  [org.jboss.msc] (main) JBoss MSC version 1.5.0.Final
+2023-06-03 08:55:23,759 INFO  [org.jboss.threads] (main) JBoss Threads version 2.4.0.Final
+2023-06-03 08:55:23,867 INFO  [org.jboss.as] (MSC service thread 1-2) WFLYSRV0049: WildFly Full 28.0.0.Final (WildFly Core 20.0.1.Final) starting
+2023-06-03 08:55:23,870 DEBUG [org.jboss.as.config] (MSC service thread 1-2) Configured system properties:
+	file.encoding = Cp1252
+	file.separator = \
+	java.awt.headless = true
+	java.class.path = C:\Data\Docs\Projects\Spring boot\Test_Deploy_SpringBoot_On_Wildfly\wildfly-28.0.0.Final\jboss-modules.jar
+	java.class.version = 61.0
+	java.home = C:\Program Files\Java\jdk-17
+	java.io.tmpdir = C:\Users\Chace\AppData\Local\Temp\
+	java.library.path = C:\Program Files\Java\jdk-17\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files\BellSoft\LibericaJDK-17\bin\;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\dotnet\;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\Program Files\Java\jdk1.8.0_271\bin;C:\Program Files\Java\jre1.8.0_271\bin;C:\Program Files\Java\jdk-17\bin;C:\Program Files\apache-maven-3.9.2\bin;C:\Users\Chace\AppData\Local\Programs\Python\Python39\Scripts\;C:\Users\Chace\AppData\Local\Programs\Python\Python39\;C:\Users\Chace\AppData\Local\Microsoft\WindowsApps;C:\Users\Chace\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Chace\.dotnet\tools;C:\Users\Chace\AppData\Roaming\npm;C:\Users\Chace\AppData\Local\JetBrains\Toolbox\scripts;.
+	java.net.preferIPv4Stack = true
+	java.runtime.name = Java(TM) SE Runtime Environment
+	java.runtime.version = 17.0.6+9-LTS-190
+	java.security.manager = allow
+	java.specification.name = Java Platform API Specification
+	java.specification.vendor = Oracle Corporation
+	java.specification.version = 17
+	java.util.logging.manager = org.jboss.logmanager.LogManager
+	java.vendor = Oracle Corporation
+	java.vendor.url = https://java.oracle.com/
+	java.vendor.url.bug = https://bugreport.java.com/bugreport/
+	java.version = 17.0.6
+	java.version.date = 2023-01-17
+	java.vm.compressedOopsMode = 32-bit
+	java.vm.info = mixed mode, sharing
+	java.vm.name = Java HotSpot(TM) 64-Bit Server VM
+	java.vm.specification.name = Java Virtual Machine Specification
+	java.vm.specification.vendor = Oracle Corporation
+	java.vm.specification.version = 17
+	java.vm.vendor = Oracle Corporation
+	java.vm.version = 17.0.6+9-LTS-190
+	javax.management.builder.initial = org.jboss.as.jmx.PluggableMBeanServerBuilder
+	jboss.home.dir = C:\Data\Docs\Projects\Spring boot\Test_Deploy_SpringBoot_On_Wildfly\wildfly-28.0.0.Final
+	jboss.host.name = ccom
+	jboss.modules.dir = C:\Data\Docs\Projects\Spring boot\Test_Deploy_SpringBoot_On_Wildfly\wildfly-28.0.0.Final\modules
+	jboss.modules.system.pkgs = org.jboss.byteman
+	jboss.node.name = ccom
+	jboss.qualified.host.name = ccom
+	jboss.server.base.dir = C:\Data\Docs\Projects\Spring boot\Test_Deploy_SpringBoot_On_Wildfly\wildfly-28.0.0.Final\standalone
+	jboss.server.config.dir = C:\Data\Docs\Projects\Spring boot\Test_Deploy_SpringBoot_On_Wildfly\wildfly-28.0.0.Final\standalone\configuration
+	jboss.server.data.dir = C:\Data\Docs\Projects\Spring boot\Test_Deploy_SpringBoot_On_Wildfly\wildfly-28.0.0.Final\standalone\data
+	jboss.server.deploy.dir = C:\Data\Docs\Projects\Spring boot\Test_Deploy_SpringBoot_On_Wildfly\wildfly-28.0.0.Final\standalone\data\content
+	jboss.server.log.dir = C:\Data\Docs\Projects\Spring boot\Test_Deploy_SpringBoot_On_Wildfly\wildfly-28.0.0.Final\standalone\log
+	jboss.server.name = ccom
+	jboss.server.persist.config = true
+	jboss.server.temp.dir = C:\Data\Docs\Projects\Spring boot\Test_Deploy_SpringBoot_On_Wildfly\wildfly-28.0.0.Final\standalone\tmp
+	jdk.debug = release
+	line.separator = 
+
+	logging.configuration = file:C:\Data\Docs\Projects\Spring boot\Test_Deploy_SpringBoot_On_Wildfly\wildfly-28.0.0.Final\standalone\configuration/logging.properties
+	module.path = C:\Data\Docs\Projects\Spring boot\Test_Deploy_SpringBoot_On_Wildfly\wildfly-28.0.0.Final\modules
+	native.encoding = Cp1252
+	org.jboss.boot.log.file = C:\Data\Docs\Projects\Spring boot\Test_Deploy_SpringBoot_On_Wildfly\wildfly-28.0.0.Final\standalone\log\server.log
+	org.jboss.resolver.warning = true
+	os.arch = amd64
+	os.name = Windows 10
+	os.version = 10.0
+	path.separator = ;
+	program.name = standalone.bat
+	sun.arch.data.model = 64
+	sun.boot.library.path = C:\Program Files\Java\jdk-17\bin
+	sun.cpu.endian = little
+	sun.cpu.isalist = amd64
+	sun.io.unicode.encoding = UnicodeLittle
+	sun.java.command = C:\Data\Docs\Projects\Spring boot\Test_Deploy_SpringBoot_On_Wildfly\wildfly-28.0.0.Final\jboss-modules.jar -mp C:\Data\Docs\Projects\Spring boot\Test_Deploy_SpringBoot_On_Wildfly\wildfly-28.0.0.Final\modules org.jboss.as.standalone -Djboss.home.dir=C:\Data\Docs\Projects\Spring boot\Test_Deploy_SpringBoot_On_Wildfly\wildfly-28.0.0.Final
+	sun.java.launcher = SUN_STANDARD
+	sun.jnu.encoding = Cp1252
+	sun.management.compiler = HotSpot 64-Bit Tiered Compilers
+	sun.os.patch.level = 
+	user.country = US
+	user.country.format = CM
+	user.dir = C:\Data\Docs\Projects\Spring boot\Test_Deploy_SpringBoot_On_Wildfly\wildfly-28.0.0.Final\bin
+	user.home = C:\Users\Chace
+	user.language = en
+	user.language.format = fr
+	user.name = Chace
+	user.script = 
+	user.timezone = Africa/Libreville
+	user.variant = 
+2023-06-03 08:55:23,874 DEBUG [org.jboss.as.config] (MSC service thread 1-2) VM Arguments: -Dprogram.name=standalone.bat -Xms64M -Xmx512M -XX:MetaspaceSize=96M -XX:MaxMetaspaceSize=256m -Djava.net.preferIPv4Stack=true -Djboss.modules.system.pkgs=org.jboss.byteman -Djava.awt.headless=true --add-exports=java.desktop/sun.awt=ALL-UNNAMED --add-exports=java.naming/com.sun.jndi.ldap=ALL-UNNAMED --add-exports=java.naming/com.sun.jndi.url.ldap=ALL-UNNAMED --add-exports=java.naming/com.sun.jndi.url.ldaps=ALL-UNNAMED --add-exports=jdk.naming.dns/com.sun.jndi.dns=ALL-UNNAMED --add-opens=java.base/java.lang=ALL-UNNAMED --add-opens=java.base/java.lang.invoke=ALL-UNNAMED --add-opens=java.base/java.io=ALL-UNNAMED --add-opens=java.base/java.lang.reflect=ALL-UNNAMED --add-opens=java.base/java.security=ALL-UNNAMED --add-opens=java.base/java.util=ALL-UNNAMED --add-opens=java.base/java.util.concurrent=ALL-UNNAMED --add-opens=java.management/javax.management=ALL-UNNAMED --add-opens=java.naming/javax.naming=ALL-UNNAMED -Djava.security.manager=allow -Dorg.jboss.boot.log.file=C:\Data\Docs\Projects\Spring boot\Test_Deploy_SpringBoot_On_Wildfly\wildfly-28.0.0.Final\standalone\log\server.log -Dlogging.configuration=file:C:\Data\Docs\Projects\Spring boot\Test_Deploy_SpringBoot_On_Wildfly\wildfly-28.0.0.Final\standalone\configuration/logging.properties 
+2023-06-03 08:55:24,692 INFO  [org.wildfly.security] (ServerService Thread Pool -- 28) ELY00001: WildFly Elytron version 2.1.0.Final
+2023-06-03 08:55:25,113 INFO  [org.jboss.as.controller.management-deprecated] (ServerService Thread Pool -- 30) WFLYCTL0028: Attribute 'cluster' in the resource at address '/subsystem=ejb3/service=remote' is deprecated, and may be removed in a future version. See the attribute description in the output of the read-resource-description operation to learn more about the deprecation.
+2023-06-03 08:55:25,151 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0039: Creating http management service using socket-binding (management-http)
+2023-06-03 08:55:25,164 INFO  [org.xnio] (MSC service thread 1-3) XNIO version 3.8.9.Final
+2023-06-03 08:55:25,169 INFO  [org.xnio.nio] (MSC service thread 1-3) XNIO NIO Implementation Version 3.8.9.Final
+2023-06-03 08:55:25,208 INFO  [org.jboss.as.jaxrs] (ServerService Thread Pool -- 57) WFLYRS0016: RESTEasy version 6.2.3.Final
+2023-06-03 08:55:25,210 INFO  [org.wildfly.extension.elytron.oidc._private] (ServerService Thread Pool -- 53) WFLYOIDC0001: Activating WildFly Elytron OIDC Subsystem
+2023-06-03 08:55:25,213 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 55) WFLYCLINF0001: Activating Infinispan subsystem.
+2023-06-03 08:55:25,221 INFO  [org.wildfly.extension.health] (ServerService Thread Pool -- 54) WFLYHEALTH0001: Activating Base Health Subsystem
+2023-06-03 08:55:25,224 WARN  [org.jboss.as.txn] (ServerService Thread Pool -- 74) WFLYTX0013: The node-identifier attribute on the /subsystem=transactions is set to the default value. This is a danger for environments running multiple servers. Please make sure the attribute value is unique.
+2023-06-03 08:55:25,226 INFO  [org.jboss.as.naming] (ServerService Thread Pool -- 67) WFLYNAM0001: Activating Naming Subsystem
+2023-06-03 08:55:25,226 INFO  [org.wildfly.extension.microprofile.config.smallrye] (ServerService Thread Pool -- 65) WFLYCONF0001: Activating MicroProfile Config Subsystem
+2023-06-03 08:55:25,226 INFO  [org.wildfly.extension.microprofile.jwt.smallrye] (ServerService Thread Pool -- 66) WFLYJWT0001: Activating MicroProfile JWT Subsystem
+2023-06-03 08:55:25,237 INFO  [org.jboss.as.jsf] (ServerService Thread Pool -- 62) WFLYJSF0007: Activated the following Jakarta Server Faces Implementations: [main]
+2023-06-03 08:55:25,246 INFO  [org.wildfly.extension.metrics] (ServerService Thread Pool -- 64) WFLYMETRICS0001: Activating Base Metrics Subsystem
+2023-06-03 08:55:25,269 INFO  [org.jboss.as.webservices] (ServerService Thread Pool -- 76) WFLYWS0002: Activating WebServices Extension
+2023-06-03 08:55:25,312 INFO  [org.jboss.as.connector] (MSC service thread 1-2) WFLYJCA0009: Starting Jakarta Connectors Subsystem (WildFly/IronJacamar 3.0.2.Final)
+2023-06-03 08:55:25,319 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-8) WFLYUT0003: Undertow 2.3.5.Final starting
+2023-06-03 08:55:25,322 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 44) WFLYJCA0004: Deploying JDBC-compliant driver class org.h2.Driver (version 2.1)
+2023-06-03 08:55:25,333 INFO  [org.jboss.as.naming] (MSC service thread 1-8) WFLYNAM0003: Starting Naming Service
+2023-06-03 08:55:25,402 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-2) WFLYJCA0018: Started Driver service with driver-name = h2
+2023-06-03 08:55:25,438 WARN  [org.wildfly.extension.elytron] (MSC service thread 1-8) WFLYELY00023: KeyStore file 'C:\Data\Docs\Projects\Spring boot\Test_Deploy_SpringBoot_On_Wildfly\wildfly-28.0.0.Final\standalone\configuration\application.keystore' does not exist. Used blank.
+2023-06-03 08:55:25,454 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 75) WFLYUT0014: Creating file handler for path 'C:\Data\Docs\Projects\Spring boot\Test_Deploy_SpringBoot_On_Wildfly\wildfly-28.0.0.Final/welcome-content' with options [directory-listing: 'false', follow-symlink: 'false', case-sensitive: 'true', safe-symlink-paths: '[]']
+2023-06-03 08:55:25,475 WARN  [org.wildfly.extension.elytron] (MSC service thread 1-1) WFLYELY01084: KeyStore C:\Data\Docs\Projects\Spring boot\Test_Deploy_SpringBoot_On_Wildfly\wildfly-28.0.0.Final\standalone\configuration\application.keystore not found, it will be auto-generated on first use with a self-signed certificate for host localhost
+2023-06-03 08:55:25,503 INFO  [org.jboss.as.mail.extension] (MSC service thread 1-4) WFLYMAIL0001: Bound mail session [java:jboss/mail/Default]
+2023-06-03 08:55:25,597 INFO  [org.wildfly.extension.io] (ServerService Thread Pool -- 56) WFLYIO001: Worker 'default' has auto-configured to 16 IO threads with 128 max task threads based on your 8 available processors
+2023-06-03 08:55:25,666 INFO  [org.jboss.as.ejb3] (MSC service thread 1-1) WFLYEJB0481: Strict pool slsb-strict-max-pool is using a max instance size of 128 (per class), which is derived from thread worker pool sizing.
+2023-06-03 08:55:25,666 INFO  [org.jboss.as.ejb3] (MSC service thread 1-6) WFLYEJB0482: Strict pool mdb-strict-max-pool is using a max instance size of 32 (per class), which is derived from the number of CPUs on this host.
+2023-06-03 08:55:25,671 INFO  [org.jboss.remoting] (MSC service thread 1-3) JBoss Remoting version 5.0.27.Final
+2023-06-03 08:55:25,684 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-6) WFLYUT0012: Started server default-server.
+2023-06-03 08:55:25,685 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-5) Queuing requests.
+2023-06-03 08:55:25,686 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-5) WFLYUT0018: Host default-host starting
+2023-06-03 08:55:25,717 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-1) WFLYUT0006: Undertow HTTP listener default listening on 127.0.0.1:8080
+2023-06-03 08:55:25,718 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-6) WFLYUT0006: Undertow HTTPS listener https listening on 127.0.0.1:8443
+2023-06-03 08:55:25,758 INFO  [org.jboss.as.patching] (MSC service thread 1-1) WFLYPAT0050: WildFly Full cumulative patch ID is: base, one-off patches include: none
+2023-06-03 08:55:25,763 INFO  [org.jboss.as.server.deployment.scanner] (MSC service thread 1-6) WFLYDS0013: Started FileSystemDeploymentService for directory C:\Data\Docs\Projects\Spring boot\Test_Deploy_SpringBoot_On_Wildfly\wildfly-28.0.0.Final\standalone\deployments
+2023-06-03 08:55:25,794 INFO  [org.jboss.as.ejb3] (MSC service thread 1-1) WFLYEJB0493: Jakarta Enterprise Beans subsystem suspension complete
+2023-06-03 08:55:25,830 INFO  [org.jboss.ws.common.management] (MSC service thread 1-5) JBWS022052: Starting JBossWS 6.2.0.Final (Apache CXF 4.0.0) 
+2023-06-03 08:55:25,867 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-8) WFLYJCA0001: Bound data source [java:jboss/datasources/ExampleDS]
+2023-06-03 08:55:25,973 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0212: Resuming server
+2023-06-03 08:55:25,977 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0060: Http management interface listening on http://127.0.0.1:9990/management
+2023-06-03 08:55:25,977 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0051: Admin console listening on http://127.0.0.1:9990
+2023-06-03 08:55:25,979 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0025: WildFly Full 28.0.0.Final (WildFly Core 20.0.1.Final) started in 2972ms - Started 280 of 522 services (317 services are lazy, passive or on-demand) - Server configuration file in use: standalone.xml
+2023-06-03 08:55:45,900 INFO  [org.jboss.as.repository] (DeploymentScanner-threads - 1) WFLYDR0001: Content added at location C:\Data\Docs\Projects\Spring boot\Test_Deploy_SpringBoot_On_Wildfly\wildfly-28.0.0.Final\standalone\data\content\26\65a7ecf53ff5f0c246e4c4312c575f347c4563\content
+2023-06-03 08:55:45,924 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-4) WFLYSRV0027: Starting deployment of "deployOnWildfly-0.0.1-SNAPSHOT.war" (runtime-name: "deployOnWildfly-0.0.1-SNAPSHOT.war")
+2023-06-03 08:55:50,414 INFO  [org.jboss.weld.deployer] (MSC service thread 1-6) WFLYWELD0003: Processing weld deployment deployOnWildfly-0.0.1-SNAPSHOT.war
+2023-06-03 08:55:50,501 INFO  [org.hibernate.validator.internal.util.Version] (MSC service thread 1-6) HV000001: Hibernate Validator 8.0.0.Final
+2023-06-03 08:55:50,842 INFO  [org.jboss.weld.Version] (MSC service thread 1-5) WELD-000900: 5.1.0 (Final)
+2023-06-03 08:55:51,606 INFO  [io.undertow.servlet] (ServerService Thread Pool -- 95) 2 Spring WebApplicationInitializers detected on classpath
+2023-06-03 08:55:51,880 ERROR [org.springframework.boot.SpringApplication] (ServerService Thread Pool -- 95) Application run failed: java.lang.ExceptionInInitializerError
+	at deployment.deployOnWildfly-0.0.1-SNAPSHOT.war//org.springframework.core.io.AbstractFileResolvingResource$VfsResourceDelegate.getResource(AbstractFileResolvingResource.java:329)
+	at deployment.deployOnWildfly-0.0.1-SNAPSHOT.war//org.springframework.core.io.AbstractFileResolvingResource.getFile(AbstractFileResolvingResource.java:171)
+	at deployment.deployOnWildfly-0.0.1-SNAPSHOT.war//org.springframework.boot.context.config.StandardConfigDataResource.getUnderlyingFile(StandardConfigDataResource.java:134)
+	at deployment.deployOnWildfly-0.0.1-SNAPSHOT.war//org.springframework.boot.context.config.StandardConfigDataResource.hashCode(StandardConfigDataResource.java:114)
+	at java.base/java.util.HashMap.hash(HashMap.java:338)
+	at java.base/java.util.HashMap.getNode(HashMap.java:568)
+	at java.base/java.util.HashMap.containsKey(HashMap.java:594)
+	at java.base/java.util.HashSet.contains(HashSet.java:205)
+	at deployment.deployOnWildfly-0.0.1-SNAPSHOT.war//org.springframework.boot.context.config.ConfigDataImporter.load(ConfigDataImporter.java:125)
+	at deployment.deployOnWildfly-0.0.1-SNAPSHOT.war//org.springframework.boot.context.config.ConfigDataImporter.resolveAndLoad(ConfigDataImporter.java:87)
+	at deployment.deployOnWildfly-0.0.1-SNAPSHOT.war//org.springframework.boot.context.config.ConfigDataEnvironmentContributors.withProcessedImports(ConfigDataEnvironmentContributors.java:115)
+	at deployment.deployOnWildfly-0.0.1-SNAPSHOT.war//org.springframework.boot.context.config.ConfigDataEnvironment.processInitial(ConfigDataEnvironment.java:242)
+	at deployment.deployOnWildfly-0.0.1-SNAPSHOT.war//org.springframework.boot.context.config.ConfigDataEnvironment.processAndApply(ConfigDataEnvironment.java:229)
+	at deployment.deployOnWildfly-0.0.1-SNAPSHOT.war//org.springframework.boot.context.config.ConfigDataEnvironmentPostProcessor.postProcessEnvironment(ConfigDataEnvironmentPostProcessor.java:96)
+	at deployment.deployOnWildfly-0.0.1-SNAPSHOT.war//org.springframework.boot.context.config.ConfigDataEnvironmentPostProcessor.postProcessEnvironment(ConfigDataEnvironmentPostProcessor.java:89)
+	at deployment.deployOnWildfly-0.0.1-SNAPSHOT.war//org.springframework.boot.env.EnvironmentPostProcessorApplicationListener.onApplicationEnvironmentPreparedEvent(EnvironmentPostProcessorApplicationListener.java:109)
+	at deployment.deployOnWildfly-0.0.1-SNAPSHOT.war//org.springframework.boot.env.EnvironmentPostProcessorApplicationListener.onApplicationEvent(EnvironmentPostProcessorApplicationListener.java:94)
+	at deployment.deployOnWildfly-0.0.1-SNAPSHOT.war//org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:172)
+	at deployment.deployOnWildfly-0.0.1-SNAPSHOT.war//org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:165)
+	at deployment.deployOnWildfly-0.0.1-SNAPSHOT.war//org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:143)
+	at deployment.deployOnWildfly-0.0.1-SNAPSHOT.war//org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:131)
+	at deployment.deployOnWildfly-0.0.1-SNAPSHOT.war//org.springframework.boot.context.event.EventPublishingRunListener.multicastInitialEvent(EventPublishingRunListener.java:136)
+	at deployment.deployOnWildfly-0.0.1-SNAPSHOT.war//org.springframework.boot.context.event.EventPublishingRunListener.environmentPrepared(EventPublishingRunListener.java:81)
+	at deployment.deployOnWildfly-0.0.1-SNAPSHOT.war//org.springframework.boot.SpringApplicationRunListeners.lambda$environmentPrepared$2(SpringApplicationRunListeners.java:64)
+	at java.base/java.lang.Iterable.forEach(Iterable.java:75)
+	at deployment.deployOnWildfly-0.0.1-SNAPSHOT.war//org.springframework.boot.SpringApplicationRunListeners.doWithListeners(SpringApplicationRunListeners.java:118)
+	at deployment.deployOnWildfly-0.0.1-SNAPSHOT.war//org.springframework.boot.SpringApplicationRunListeners.doWithListeners(SpringApplicationRunListeners.java:112)
+	at deployment.deployOnWildfly-0.0.1-SNAPSHOT.war//org.springframework.boot.SpringApplicationRunListeners.environmentPrepared(SpringApplicationRunListeners.java:63)
+	at deployment.deployOnWildfly-0.0.1-SNAPSHOT.war//org.springframework.boot.SpringApplication.prepareEnvironment(SpringApplication.java:354)
+	at deployment.deployOnWildfly-0.0.1-SNAPSHOT.war//org.springframework.boot.SpringApplication.run(SpringApplication.java:305)
+	at deployment.deployOnWildfly-0.0.1-SNAPSHOT.war//org.springframework.boot.web.servlet.support.SpringBootServletInitializer.run(SpringBootServletInitializer.java:174)
+	at deployment.deployOnWildfly-0.0.1-SNAPSHOT.war//org.springframework.boot.web.servlet.support.SpringBootServletInitializer.createRootApplicationContext(SpringBootServletInitializer.java:154)
+	at deployment.deployOnWildfly-0.0.1-SNAPSHOT.war//org.springframework.boot.web.servlet.support.SpringBootServletInitializer.onStartup(SpringBootServletInitializer.java:96)
+	at deployment.deployOnWildfly-0.0.1-SNAPSHOT.war//org.springframework.web.SpringServletContainerInitializer.onStartup(SpringServletContainerInitializer.java:171)
+	at io.undertow.servlet@2.3.5.Final//io.undertow.servlet.core.DeploymentManagerImpl$1.call(DeploymentManagerImpl.java:204)
+	at io.undertow.servlet@2.3.5.Final//io.undertow.servlet.core.DeploymentManagerImpl$1.call(DeploymentManagerImpl.java:187)
+	at io.undertow.servlet@2.3.5.Final//io.undertow.servlet.core.ServletRequestContextThreadSetupAction$1.call(ServletRequestContextThreadSetupAction.java:42)
+	at io.undertow.servlet@2.3.5.Final//io.undertow.servlet.core.ContextClassLoaderSetupAction$1.call(ContextClassLoaderSetupAction.java:43)
+	at org.wildfly.extension.undertow@28.0.0.Final//org.wildfly.extension.undertow.deployment.UndertowDeploymentInfoService$UndertowThreadSetupAction.lambda$create$0(UndertowDeploymentInfoService.java:1430)
+	at org.wildfly.extension.undertow@28.0.0.Final//org.wildfly.extension.undertow.deployment.UndertowDeploymentInfoService$UndertowThreadSetupAction.lambda$create$0(UndertowDeploymentInfoService.java:1430)
+	at org.wildfly.extension.undertow@28.0.0.Final//org.wildfly.extension.undertow.deployment.UndertowDeploymentInfoService$UndertowThreadSetupAction.lambda$create$0(UndertowDeploymentInfoService.java:1430)
+	at org.wildfly.extension.undertow@28.0.0.Final//org.wildfly.extension.undertow.deployment.UndertowDeploymentInfoService$UndertowThreadSetupAction.lambda$create$0(UndertowDeploymentInfoService.java:1430)
+	at io.undertow.servlet@2.3.5.Final//io.undertow.servlet.core.DeploymentManagerImpl.deploy(DeploymentManagerImpl.java:255)
+	at org.wildfly.extension.undertow@28.0.0.Final//org.wildfly.extension.undertow.deployment.UndertowDeploymentService.startContext(UndertowDeploymentService.java:105)
+	at org.wildfly.extension.undertow@28.0.0.Final//org.wildfly.extension.undertow.deployment.UndertowDeploymentService$1.run(UndertowDeploymentService.java:87)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at org.jboss.threads@2.4.0.Final//org.jboss.threads.ContextClassLoaderSavingRunnable.run(ContextClassLoaderSavingRunnable.java:35)
+	at org.jboss.threads@2.4.0.Final//org.jboss.threads.EnhancedQueueExecutor.safeRun(EnhancedQueueExecutor.java:1990)
+	at org.jboss.threads@2.4.0.Final//org.jboss.threads.EnhancedQueueExecutor$ThreadBody.doRunTask(EnhancedQueueExecutor.java:1486)
+	at org.jboss.threads@2.4.0.Final//org.jboss.threads.EnhancedQueueExecutor$ThreadBody.run(EnhancedQueueExecutor.java:1377)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+	at org.jboss.threads@2.4.0.Final//org.jboss.threads.JBossThread.run(JBossThread.java:513)
+Caused by: java.lang.IllegalStateException: Could not detect JBoss VFS infrastructure
+	at deployment.deployOnWildfly-0.0.1-SNAPSHOT.war//org.springframework.core.io.VfsUtils.<clinit>(VfsUtils.java:96)
+	... 53 more
+Caused by: java.lang.ClassNotFoundException: org.jboss.vfs.VFS from [Module "deployment.deployOnWildfly-0.0.1-SNAPSHOT.war" from Service Module Loader]
+	at org.jboss.modules.ModuleClassLoader.findClass(ModuleClassLoader.java:200)
+	at org.jboss.modules.ConcurrentClassLoader.performLoadClassUnchecked(ConcurrentClassLoader.java:410)
+	at org.jboss.modules.ConcurrentClassLoader.performLoadClass(ConcurrentClassLoader.java:398)
+	at org.jboss.modules.ConcurrentClassLoader.loadClass(ConcurrentClassLoader.java:116)
+	at deployment.deployOnWildfly-0.0.1-SNAPSHOT.war//org.springframework.core.io.VfsUtils.<clinit>(VfsUtils.java:73)
+	... 53 more
+
+2023-06-03 08:55:51,882 ERROR [org.jboss.msc.service.fail] (ServerService Thread Pool -- 95) MSC000001: Failed to start service jboss.deployment.unit."deployOnWildfly-0.0.1-SNAPSHOT.war".undertow-deployment: org.jboss.msc.service.StartException in service jboss.deployment.unit."deployOnWildfly-0.0.1-SNAPSHOT.war".undertow-deployment: java.lang.ExceptionInInitializerError
+	at org.wildfly.extension.undertow@28.0.0.Final//org.wildfly.extension.undertow.deployment.UndertowDeploymentService$1.run(UndertowDeploymentService.java:90)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at org.jboss.threads@2.4.0.Final//org.jboss.threads.ContextClassLoaderSavingRunnable.run(ContextClassLoaderSavingRunnable.java:35)
+	at org.jboss.threads@2.4.0.Final//org.jboss.threads.EnhancedQueueExecutor.safeRun(EnhancedQueueExecutor.java:1990)
+	at org.jboss.threads@2.4.0.Final//org.jboss.threads.EnhancedQueueExecutor$ThreadBody.doRunTask(EnhancedQueueExecutor.java:1486)
+	at org.jboss.threads@2.4.0.Final//org.jboss.threads.EnhancedQueueExecutor$ThreadBody.run(EnhancedQueueExecutor.java:1377)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+	at org.jboss.threads@2.4.0.Final//org.jboss.threads.JBossThread.run(JBossThread.java:513)
+Caused by: java.lang.ExceptionInInitializerError
+	at deployment.deployOnWildfly-0.0.1-SNAPSHOT.war//org.springframework.core.io.AbstractFileResolvingResource$VfsResourceDelegate.getResource(AbstractFileResolvingResource.java:329)
+	at deployment.deployOnWildfly-0.0.1-SNAPSHOT.war//org.springframework.core.io.AbstractFileResolvingResource.getFile(AbstractFileResolvingResource.java:171)
+	at deployment.deployOnWildfly-0.0.1-SNAPSHOT.war//org.springframework.boot.context.config.StandardConfigDataResource.getUnderlyingFile(StandardConfigDataResource.java:134)
+	at deployment.deployOnWildfly-0.0.1-SNAPSHOT.war//org.springframework.boot.context.config.StandardConfigDataResource.hashCode(StandardConfigDataResource.java:114)
+	at java.base/java.util.HashMap.hash(HashMap.java:338)
+	at java.base/java.util.HashMap.getNode(HashMap.java:568)
+	at java.base/java.util.HashMap.containsKey(HashMap.java:594)
+	at java.base/java.util.HashSet.contains(HashSet.java:205)
+	at deployment.deployOnWildfly-0.0.1-SNAPSHOT.war//org.springframework.boot.context.config.ConfigDataImporter.load(ConfigDataImporter.java:125)
+	at deployment.deployOnWildfly-0.0.1-SNAPSHOT.war//org.springframework.boot.context.config.ConfigDataImporter.resolveAndLoad(ConfigDataImporter.java:87)
+	at deployment.deployOnWildfly-0.0.1-SNAPSHOT.war//org.springframework.boot.context.config.ConfigDataEnvironmentContributors.withProcessedImports(ConfigDataEnvironmentContributors.java:115)
+	at deployment.deployOnWildfly-0.0.1-SNAPSHOT.war//org.springframework.boot.context.config.ConfigDataEnvironment.processInitial(ConfigDataEnvironment.java:242)
+	at deployment.deployOnWildfly-0.0.1-SNAPSHOT.war//org.springframework.boot.context.config.ConfigDataEnvironment.processAndApply(ConfigDataEnvironment.java:229)
+	at deployment.deployOnWildfly-0.0.1-SNAPSHOT.war//org.springframework.boot.context.config.ConfigDataEnvironmentPostProcessor.postProcessEnvironment(ConfigDataEnvironmentPostProcessor.java:96)
+	at deployment.deployOnWildfly-0.0.1-SNAPSHOT.war//org.springframework.boot.context.config.ConfigDataEnvironmentPostProcessor.postProcessEnvironment(ConfigDataEnvironmentPostProcessor.java:89)
+	at deployment.deployOnWildfly-0.0.1-SNAPSHOT.war//org.springframework.boot.env.EnvironmentPostProcessorApplicationListener.onApplicationEnvironmentPreparedEvent(EnvironmentPostProcessorApplicationListener.java:109)
+	at deployment.deployOnWildfly-0.0.1-SNAPSHOT.war//org.springframework.boot.env.EnvironmentPostProcessorApplicationListener.onApplicationEvent(EnvironmentPostProcessorApplicationListener.java:94)
+	at deployment.deployOnWildfly-0.0.1-SNAPSHOT.war//org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:172)
+	at deployment.deployOnWildfly-0.0.1-SNAPSHOT.war//org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:165)
+	at deployment.deployOnWildfly-0.0.1-SNAPSHOT.war//org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:143)
+	at deployment.deployOnWildfly-0.0.1-SNAPSHOT.war//org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:131)
+	at deployment.deployOnWildfly-0.0.1-SNAPSHOT.war//org.springframework.boot.context.event.EventPublishingRunListener.multicastInitialEvent(EventPublishingRunListener.java:136)
+	at deployment.deployOnWildfly-0.0.1-SNAPSHOT.war//org.springframework.boot.context.event.EventPublishingRunListener.environmentPrepared(EventPublishingRunListener.java:81)
+	at deployment.deployOnWildfly-0.0.1-SNAPSHOT.war//org.springframework.boot.SpringApplicationRunListeners.lambda$environmentPrepared$2(SpringApplicationRunListeners.java:64)
+	at java.base/java.lang.Iterable.forEach(Iterable.java:75)
+	at deployment.deployOnWildfly-0.0.1-SNAPSHOT.war//org.springframework.boot.SpringApplicationRunListeners.doWithListeners(SpringApplicationRunListeners.java:118)
+	at deployment.deployOnWildfly-0.0.1-SNAPSHOT.war//org.springframework.boot.SpringApplicationRunListeners.doWithListeners(SpringApplicationRunListeners.java:112)
+	at deployment.deployOnWildfly-0.0.1-SNAPSHOT.war//org.springframework.boot.SpringApplicationRunListeners.environmentPrepared(SpringApplicationRunListeners.java:63)
+	at deployment.deployOnWildfly-0.0.1-SNAPSHOT.war//org.springframework.boot.SpringApplication.prepareEnvironment(SpringApplication.java:354)
+	at deployment.deployOnWildfly-0.0.1-SNAPSHOT.war//org.springframework.boot.SpringApplication.run(SpringApplication.java:305)
+	at deployment.deployOnWildfly-0.0.1-SNAPSHOT.war//org.springframework.boot.web.servlet.support.SpringBootServletInitializer.run(SpringBootServletInitializer.java:174)
+	at deployment.deployOnWildfly-0.0.1-SNAPSHOT.war//org.springframework.boot.web.servlet.support.SpringBootServletInitializer.createRootApplicationContext(SpringBootServletInitializer.java:154)
+	at deployment.deployOnWildfly-0.0.1-SNAPSHOT.war//org.springframework.boot.web.servlet.support.SpringBootServletInitializer.onStartup(SpringBootServletInitializer.java:96)
+	at deployment.deployOnWildfly-0.0.1-SNAPSHOT.war//org.springframework.web.SpringServletContainerInitializer.onStartup(SpringServletContainerInitializer.java:171)
+	at io.undertow.servlet@2.3.5.Final//io.undertow.servlet.core.DeploymentManagerImpl$1.call(DeploymentManagerImpl.java:204)
+	at io.undertow.servlet@2.3.5.Final//io.undertow.servlet.core.DeploymentManagerImpl$1.call(DeploymentManagerImpl.java:187)
+	at io.undertow.servlet@2.3.5.Final//io.undertow.servlet.core.ServletRequestContextThreadSetupAction$1.call(ServletRequestContextThreadSetupAction.java:42)
+	at io.undertow.servlet@2.3.5.Final//io.undertow.servlet.core.ContextClassLoaderSetupAction$1.call(ContextClassLoaderSetupAction.java:43)
+	at org.wildfly.extension.undertow@28.0.0.Final//org.wildfly.extension.undertow.deployment.UndertowDeploymentInfoService$UndertowThreadSetupAction.lambda$create$0(UndertowDeploymentInfoService.java:1430)
+	at org.wildfly.extension.undertow@28.0.0.Final//org.wildfly.extension.undertow.deployment.UndertowDeploymentInfoService$UndertowThreadSetupAction.lambda$create$0(UndertowDeploymentInfoService.java:1430)
+	at org.wildfly.extension.undertow@28.0.0.Final//org.wildfly.extension.undertow.deployment.UndertowDeploymentInfoService$UndertowThreadSetupAction.lambda$create$0(UndertowDeploymentInfoService.java:1430)
+	at org.wildfly.extension.undertow@28.0.0.Final//org.wildfly.extension.undertow.deployment.UndertowDeploymentInfoService$UndertowThreadSetupAction.lambda$create$0(UndertowDeploymentInfoService.java:1430)
+	at io.undertow.servlet@2.3.5.Final//io.undertow.servlet.core.DeploymentManagerImpl.deploy(DeploymentManagerImpl.java:255)
+	at org.wildfly.extension.undertow@28.0.0.Final//org.wildfly.extension.undertow.deployment.UndertowDeploymentService.startContext(UndertowDeploymentService.java:105)
+	at org.wildfly.extension.undertow@28.0.0.Final//org.wildfly.extension.undertow.deployment.UndertowDeploymentService$1.run(UndertowDeploymentService.java:87)
+	... 8 more
+Caused by: java.lang.IllegalStateException: Could not detect JBoss VFS infrastructure
+	at deployment.deployOnWildfly-0.0.1-SNAPSHOT.war//org.springframework.core.io.VfsUtils.<clinit>(VfsUtils.java:96)
+	... 53 more
+Caused by: java.lang.ClassNotFoundException: org.jboss.vfs.VFS from [Module "deployment.deployOnWildfly-0.0.1-SNAPSHOT.war" from Service Module Loader]
+	at org.jboss.modules.ModuleClassLoader.findClass(ModuleClassLoader.java:200)
+	at org.jboss.modules.ConcurrentClassLoader.performLoadClassUnchecked(ConcurrentClassLoader.java:410)
+	at org.jboss.modules.ConcurrentClassLoader.performLoadClass(ConcurrentClassLoader.java:398)
+	at org.jboss.modules.ConcurrentClassLoader.loadClass(ConcurrentClassLoader.java:116)
+	at deployment.deployOnWildfly-0.0.1-SNAPSHOT.war//org.springframework.core.io.VfsUtils.<clinit>(VfsUtils.java:73)
+	... 53 more
+
+2023-06-03 08:55:51,884 ERROR [org.jboss.as.controller.management-operation] (DeploymentScanner-threads - 1) WFLYCTL0013: Operation ("deploy") failed - address: ([("deployment" => "deployOnWildfly-0.0.1-SNAPSHOT.war")]) - failure description: {"WFLYCTL0080: Failed services" => {"jboss.deployment.unit.\"deployOnWildfly-0.0.1-SNAPSHOT.war\".undertow-deployment" => "java.lang.ExceptionInInitializerError
+    Caused by: java.lang.ExceptionInInitializerError
+    Caused by: java.lang.IllegalStateException: Could not detect JBoss VFS infrastructure
+    Caused by: java.lang.ClassNotFoundException: org.jboss.vfs.VFS from [Module \"deployment.deployOnWildfly-0.0.1-SNAPSHOT.war\" from Service Module Loader]"}}
+2023-06-03 10:18:24,236 INFO  [org.jboss.modules] (main) JBoss Modules version 2.1.0.Final
+2023-06-03 10:18:27,692 INFO  [org.jboss.msc] (main) JBoss MSC version 1.5.0.Final
+2023-06-03 10:18:27,702 INFO  [org.jboss.threads] (main) JBoss Threads version 2.4.0.Final
+2023-06-03 10:18:27,802 INFO  [org.jboss.as] (MSC service thread 1-1) WFLYSRV0049: WildFly Full 28.0.0.Final (WildFly Core 20.0.1.Final) starting
+2023-06-03 10:18:27,803 DEBUG [org.jboss.as.config] (MSC service thread 1-1) Configured system properties:
+	file.encoding = Cp1252
+	file.separator = \
+	java.awt.headless = true
+	java.class.path = C:\Data\Docs\Projects\Spring boot\Test_Deploy_SpringBoot_On_Wildfly\wildfly-28.0.0.Final\jboss-modules.jar
+	java.class.version = 61.0
+	java.home = C:\Program Files\Java\jdk-17
+	java.io.tmpdir = C:\Users\Chace\AppData\Local\Temp\
+	java.library.path = C:\Program Files\Java\jdk-17\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files\BellSoft\LibericaJDK-17\bin\;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\dotnet\;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\Program Files\Java\jdk1.8.0_271\bin;C:\Program Files\Java\jre1.8.0_271\bin;C:\Program Files\Java\jdk-17\bin;C:\Program Files\apache-maven-3.9.2\bin;C:\Users\Chace\AppData\Local\Programs\Python\Python39\Scripts\;C:\Users\Chace\AppData\Local\Programs\Python\Python39\;C:\Users\Chace\AppData\Local\Microsoft\WindowsApps;C:\Users\Chace\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Chace\.dotnet\tools;C:\Users\Chace\AppData\Roaming\npm;C:\Users\Chace\AppData\Local\JetBrains\Toolbox\scripts;.
+	java.net.preferIPv4Stack = true
+	java.runtime.name = Java(TM) SE Runtime Environment
+	java.runtime.version = 17.0.6+9-LTS-190
+	java.security.manager = allow
+	java.specification.name = Java Platform API Specification
+	java.specification.vendor = Oracle Corporation
+	java.specification.version = 17
+	java.util.logging.manager = org.jboss.logmanager.LogManager
+	java.vendor = Oracle Corporation
+	java.vendor.url = https://java.oracle.com/
+	java.vendor.url.bug = https://bugreport.java.com/bugreport/
+	java.version = 17.0.6
+	java.version.date = 2023-01-17
+	java.vm.compressedOopsMode = 32-bit
+	java.vm.info = mixed mode, sharing
+	java.vm.name = Java HotSpot(TM) 64-Bit Server VM
+	java.vm.specification.name = Java Virtual Machine Specification
+	java.vm.specification.vendor = Oracle Corporation
+	java.vm.specification.version = 17
+	java.vm.vendor = Oracle Corporation
+	java.vm.version = 17.0.6+9-LTS-190
+	javax.management.builder.initial = org.jboss.as.jmx.PluggableMBeanServerBuilder
+	jboss.home.dir = C:\Data\Docs\Projects\Spring boot\Test_Deploy_SpringBoot_On_Wildfly\wildfly-28.0.0.Final
+	jboss.host.name = ccom
+	jboss.modules.dir = C:\Data\Docs\Projects\Spring boot\Test_Deploy_SpringBoot_On_Wildfly\wildfly-28.0.0.Final\modules
+	jboss.modules.system.pkgs = org.jboss.byteman
+	jboss.node.name = ccom
+	jboss.qualified.host.name = ccom
+	jboss.server.base.dir = C:\Data\Docs\Projects\Spring boot\Test_Deploy_SpringBoot_On_Wildfly\wildfly-28.0.0.Final\standalone
+	jboss.server.config.dir = C:\Data\Docs\Projects\Spring boot\Test_Deploy_SpringBoot_On_Wildfly\wildfly-28.0.0.Final\standalone\configuration
+	jboss.server.data.dir = C:\Data\Docs\Projects\Spring boot\Test_Deploy_SpringBoot_On_Wildfly\wildfly-28.0.0.Final\standalone\data
+	jboss.server.deploy.dir = C:\Data\Docs\Projects\Spring boot\Test_Deploy_SpringBoot_On_Wildfly\wildfly-28.0.0.Final\standalone\data\content
+	jboss.server.log.dir = C:\Data\Docs\Projects\Spring boot\Test_Deploy_SpringBoot_On_Wildfly\wildfly-28.0.0.Final\standalone\log
+	jboss.server.name = ccom
+	jboss.server.persist.config = true
+	jboss.server.temp.dir = C:\Data\Docs\Projects\Spring boot\Test_Deploy_SpringBoot_On_Wildfly\wildfly-28.0.0.Final\standalone\tmp
+	jdk.debug = release
+	line.separator = 
+
+	logging.configuration = file:C:\Data\Docs\Projects\Spring boot\Test_Deploy_SpringBoot_On_Wildfly\wildfly-28.0.0.Final\standalone\configuration/logging.properties
+	module.path = C:\Data\Docs\Projects\Spring boot\Test_Deploy_SpringBoot_On_Wildfly\wildfly-28.0.0.Final\modules
+	native.encoding = Cp1252
+	org.jboss.boot.log.file = C:\Data\Docs\Projects\Spring boot\Test_Deploy_SpringBoot_On_Wildfly\wildfly-28.0.0.Final\standalone\log\server.log
+	org.jboss.resolver.warning = true
+	os.arch = amd64
+	os.name = Windows 10
+	os.version = 10.0
+	path.separator = ;
+	program.name = standalone.bat
+	sun.arch.data.model = 64
+	sun.boot.library.path = C:\Program Files\Java\jdk-17\bin
+	sun.cpu.endian = little
+	sun.cpu.isalist = amd64
+	sun.io.unicode.encoding = UnicodeLittle
+	sun.java.command = C:\Data\Docs\Projects\Spring boot\Test_Deploy_SpringBoot_On_Wildfly\wildfly-28.0.0.Final\jboss-modules.jar -mp C:\Data\Docs\Projects\Spring boot\Test_Deploy_SpringBoot_On_Wildfly\wildfly-28.0.0.Final\modules org.jboss.as.standalone -Djboss.home.dir=C:\Data\Docs\Projects\Spring boot\Test_Deploy_SpringBoot_On_Wildfly\wildfly-28.0.0.Final
+	sun.java.launcher = SUN_STANDARD
+	sun.jnu.encoding = Cp1252
+	sun.management.compiler = HotSpot 64-Bit Tiered Compilers
+	sun.os.patch.level = 
+	user.country = US
+	user.country.format = CM
+	user.dir = C:\Data\Docs\Projects\Spring boot\Test_Deploy_SpringBoot_On_Wildfly\wildfly-28.0.0.Final\bin
+	user.home = C:\Users\Chace
+	user.language = en
+	user.language.format = fr
+	user.name = Chace
+	user.script = 
+	user.timezone = Africa/Libreville
+	user.variant = 
+2023-06-03 10:18:27,806 DEBUG [org.jboss.as.config] (MSC service thread 1-1) VM Arguments: -Dprogram.name=standalone.bat -Xms64M -Xmx512M -XX:MetaspaceSize=96M -XX:MaxMetaspaceSize=256m -Djava.net.preferIPv4Stack=true -Djboss.modules.system.pkgs=org.jboss.byteman -Djava.awt.headless=true --add-exports=java.desktop/sun.awt=ALL-UNNAMED --add-exports=java.naming/com.sun.jndi.ldap=ALL-UNNAMED --add-exports=java.naming/com.sun.jndi.url.ldap=ALL-UNNAMED --add-exports=java.naming/com.sun.jndi.url.ldaps=ALL-UNNAMED --add-exports=jdk.naming.dns/com.sun.jndi.dns=ALL-UNNAMED --add-opens=java.base/java.lang=ALL-UNNAMED --add-opens=java.base/java.lang.invoke=ALL-UNNAMED --add-opens=java.base/java.io=ALL-UNNAMED --add-opens=java.base/java.lang.reflect=ALL-UNNAMED --add-opens=java.base/java.security=ALL-UNNAMED --add-opens=java.base/java.util=ALL-UNNAMED --add-opens=java.base/java.util.concurrent=ALL-UNNAMED --add-opens=java.management/javax.management=ALL-UNNAMED --add-opens=java.naming/javax.naming=ALL-UNNAMED -Djava.security.manager=allow -Dorg.jboss.boot.log.file=C:\Data\Docs\Projects\Spring boot\Test_Deploy_SpringBoot_On_Wildfly\wildfly-28.0.0.Final\standalone\log\server.log -Dlogging.configuration=file:C:\Data\Docs\Projects\Spring boot\Test_Deploy_SpringBoot_On_Wildfly\wildfly-28.0.0.Final\standalone\configuration/logging.properties 
+2023-06-03 10:18:29,249 INFO  [org.wildfly.security] (ServerService Thread Pool -- 28) ELY00001: WildFly Elytron version 2.1.0.Final
+2023-06-03 10:18:31,594 INFO  [org.jboss.as.controller.management-deprecated] (ServerService Thread Pool -- 2) WFLYCTL0028: Attribute 'cluster' in the resource at address '/subsystem=ejb3/service=remote' is deprecated, and may be removed in a future version. See the attribute description in the output of the read-resource-description operation to learn more about the deprecation.
+2023-06-03 10:18:31,645 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0039: Creating http management service using socket-binding (management-http)
+2023-06-03 10:18:31,657 INFO  [org.xnio] (MSC service thread 1-2) XNIO version 3.8.9.Final
+2023-06-03 10:18:31,662 INFO  [org.xnio.nio] (MSC service thread 1-2) XNIO NIO Implementation Version 3.8.9.Final
+2023-06-03 10:18:31,701 INFO  [org.jboss.as.jaxrs] (ServerService Thread Pool -- 57) WFLYRS0016: RESTEasy version 6.2.3.Final
+2023-06-03 10:18:31,708 WARN  [org.jboss.as.txn] (ServerService Thread Pool -- 74) WFLYTX0013: The node-identifier attribute on the /subsystem=transactions is set to the default value. This is a danger for environments running multiple servers. Please make sure the attribute value is unique.
+2023-06-03 10:18:31,711 INFO  [org.wildfly.extension.microprofile.jwt.smallrye] (ServerService Thread Pool -- 66) WFLYJWT0001: Activating MicroProfile JWT Subsystem
+2023-06-03 10:18:31,713 INFO  [org.wildfly.extension.elytron.oidc._private] (ServerService Thread Pool -- 53) WFLYOIDC0001: Activating WildFly Elytron OIDC Subsystem
+2023-06-03 10:18:31,713 INFO  [org.wildfly.extension.microprofile.config.smallrye] (ServerService Thread Pool -- 65) WFLYCONF0001: Activating MicroProfile Config Subsystem
+2023-06-03 10:18:31,716 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 55) WFLYCLINF0001: Activating Infinispan subsystem.
+2023-06-03 10:18:31,718 INFO  [org.wildfly.extension.health] (ServerService Thread Pool -- 54) WFLYHEALTH0001: Activating Base Health Subsystem
+2023-06-03 10:18:31,734 INFO  [org.jboss.as.jsf] (ServerService Thread Pool -- 62) WFLYJSF0007: Activated the following Jakarta Server Faces Implementations: [main]
+2023-06-03 10:18:31,736 INFO  [org.wildfly.extension.metrics] (ServerService Thread Pool -- 64) WFLYMETRICS0001: Activating Base Metrics Subsystem
+2023-06-03 10:18:31,745 INFO  [org.jboss.as.naming] (ServerService Thread Pool -- 67) WFLYNAM0001: Activating Naming Subsystem
+2023-06-03 10:18:31,756 INFO  [org.jboss.as.webservices] (ServerService Thread Pool -- 76) WFLYWS0002: Activating WebServices Extension
+2023-06-03 10:18:31,795 INFO  [org.jboss.as.connector] (MSC service thread 1-8) WFLYJCA0009: Starting Jakarta Connectors Subsystem (WildFly/IronJacamar 3.0.2.Final)
+2023-06-03 10:18:31,800 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-6) WFLYUT0003: Undertow 2.3.5.Final starting
+2023-06-03 10:18:31,833 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 44) WFLYJCA0004: Deploying JDBC-compliant driver class org.h2.Driver (version 2.1)
+2023-06-03 10:18:31,899 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 75) WFLYUT0014: Creating file handler for path 'C:\Data\Docs\Projects\Spring boot\Test_Deploy_SpringBoot_On_Wildfly\wildfly-28.0.0.Final/welcome-content' with options [directory-listing: 'false', follow-symlink: 'false', case-sensitive: 'true', safe-symlink-paths: '[]']
+2023-06-03 10:18:31,920 WARN  [org.wildfly.extension.elytron] (MSC service thread 1-5) WFLYELY00023: KeyStore file 'C:\Data\Docs\Projects\Spring boot\Test_Deploy_SpringBoot_On_Wildfly\wildfly-28.0.0.Final\standalone\configuration\application.keystore' does not exist. Used blank.
+2023-06-03 10:18:32,030 INFO  [org.wildfly.extension.io] (ServerService Thread Pool -- 56) WFLYIO001: Worker 'default' has auto-configured to 16 IO threads with 128 max task threads based on your 8 available processors
+2023-06-03 10:18:32,051 INFO  [org.jboss.remoting] (MSC service thread 1-3) JBoss Remoting version 5.0.27.Final
+2023-06-03 10:18:32,106 INFO  [org.jboss.as.ejb3] (MSC service thread 1-4) WFLYEJB0493: Jakarta Enterprise Beans subsystem suspension complete
+2023-06-03 10:18:43,063 INFO  [org.jboss.as.ejb3] (MSC service thread 1-2) WFLYEJB0482: Strict pool mdb-strict-max-pool is using a max instance size of 32 (per class), which is derived from the number of CPUs on this host.
+2023-06-03 10:18:43,063 INFO  [org.jboss.as.ejb3] (MSC service thread 1-6) WFLYEJB0481: Strict pool slsb-strict-max-pool is using a max instance size of 128 (per class), which is derived from thread worker pool sizing.
+2023-06-03 10:18:43,065 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-8) WFLYJCA0018: Started Driver service with driver-name = h2
+2023-06-03 10:18:43,086 WARN  [org.wildfly.extension.elytron] (MSC service thread 1-5) WFLYELY01084: KeyStore C:\Data\Docs\Projects\Spring boot\Test_Deploy_SpringBoot_On_Wildfly\wildfly-28.0.0.Final\standalone\configuration\application.keystore not found, it will be auto-generated on first use with a self-signed certificate for host localhost
+2023-06-03 10:18:43,099 INFO  [org.jboss.as.naming] (MSC service thread 1-8) WFLYNAM0003: Starting Naming Service
+2023-06-03 10:18:43,102 INFO  [org.jboss.as.mail.extension] (MSC service thread 1-8) WFLYMAIL0001: Bound mail session [java:jboss/mail/Default]
+2023-06-03 10:18:43,140 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-2) WFLYUT0012: Started server default-server.
+2023-06-03 10:18:43,141 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-5) Queuing requests.
+2023-06-03 10:18:43,142 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-5) WFLYUT0018: Host default-host starting
+2023-06-03 10:18:43,147 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-3) WFLYUT0006: Undertow HTTP listener default listening on 127.0.0.1:8080
+2023-06-03 10:18:43,191 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-7) WFLYJCA0001: Bound data source [java:jboss/datasources/ExampleDS]
+2023-06-03 10:18:43,226 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-1) WFLYUT0006: Undertow HTTPS listener https listening on 127.0.0.1:8443
+2023-06-03 10:18:43,437 INFO  [org.jboss.as.patching] (MSC service thread 1-3) WFLYPAT0050: WildFly Full cumulative patch ID is: base, one-off patches include: none
+2023-06-03 10:18:43,440 INFO  [org.jboss.as.server.deployment.scanner] (MSC service thread 1-1) WFLYDS0013: Started FileSystemDeploymentService for directory C:\Data\Docs\Projects\Spring boot\Test_Deploy_SpringBoot_On_Wildfly\wildfly-28.0.0.Final\standalone\deployments
+2023-06-03 10:18:43,478 INFO  [org.jboss.ws.common.management] (MSC service thread 1-2) JBWS022052: Starting JBossWS 6.2.0.Final (Apache CXF 4.0.0) 
+2023-06-03 10:18:43,588 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0212: Resuming server
+2023-06-03 10:18:43,595 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0060: Http management interface listening on http://127.0.0.1:9990/management
+2023-06-03 10:18:43,595 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0051: Admin console listening on http://127.0.0.1:9990
+2023-06-03 10:18:43,596 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0025: WildFly Full 28.0.0.Final (WildFly Core 20.0.1.Final) started in 26719ms - Started 280 of 522 services (317 services are lazy, passive or on-demand) - Server configuration file in use: standalone.xml
+2023-06-03 10:18:53,540 INFO  [org.jboss.as.repository] (DeploymentScanner-threads - 1) WFLYDR0001: Content added at location C:\Data\Docs\Projects\Spring boot\Test_Deploy_SpringBoot_On_Wildfly\wildfly-28.0.0.Final\standalone\data\content\af\e8868dde1533b594d5adc877aef256b14a42c3\content
+2023-06-03 10:18:53,564 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-2) WFLYSRV0027: Starting deployment of "wildflydeploy-1.0.war" (runtime-name: "wildflydeploy-1.0.war")
+2023-06-03 10:18:57,887 WARN  [org.jboss.as.dependency.private] (MSC service thread 1-2) WFLYSRV0018: Deployment "deployment.wildflydeploy-1.0.war" is using a private module ("org.jboss.vfs") which may be changed or removed in future versions without notice.
+2023-06-03 10:18:57,938 INFO  [org.jboss.weld.deployer] (MSC service thread 1-1) WFLYWELD0003: Processing weld deployment wildflydeploy-1.0.war
+2023-06-03 10:18:58,032 INFO  [org.hibernate.validator.internal.util.Version] (MSC service thread 1-1) HV000001: Hibernate Validator 8.0.0.Final
+2023-06-03 10:18:58,379 INFO  [org.jboss.weld.Version] (MSC service thread 1-7) WELD-000900: 5.1.0 (Final)
+2023-06-03 10:18:59,133 INFO  [io.undertow.servlet] (ServerService Thread Pool -- 14) 3 Spring WebApplicationInitializers detected on classpath
+2023-06-03 10:18:59,496 INFO  [stdout] (ServerService Thread Pool -- 14) 
+2023-06-03 10:18:59,496 INFO  [stdout] (ServerService Thread Pool -- 14)   .   ____          _            __ _ _
+2023-06-03 10:18:59,496 INFO  [stdout] (ServerService Thread Pool -- 14)  /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+2023-06-03 10:18:59,496 INFO  [stdout] (ServerService Thread Pool -- 14) ( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+2023-06-03 10:18:59,496 INFO  [stdout] (ServerService Thread Pool -- 14)  \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+2023-06-03 10:18:59,496 INFO  [stdout] (ServerService Thread Pool -- 14)   '  |____| .__|_| |_|_| |_\__, | / / / /
+2023-06-03 10:18:59,497 INFO  [stdout] (ServerService Thread Pool -- 14)  =========|_|==============|___/=/_/_/_/
+2023-06-03 10:18:59,498 INFO  [stdout] (ServerService Thread Pool -- 14)  :: Spring Boot ::                (v3.0.7)
+2023-06-03 10:18:59,498 INFO  [stdout] (ServerService Thread Pool -- 14) 
+2023-06-03 10:18:59,557 INFO  [com.chace.wildflydeploy.WildflydeployApplication] (ServerService Thread Pool -- 14) Starting WildflydeployApplication using Java 17.0.6 with PID 23908 (started by Chace in C:\Data\Docs\Projects\Spring boot\Test_Deploy_SpringBoot_On_Wildfly\wildfly-28.0.0.Final\bin)
+2023-06-03 10:18:59,559 INFO  [com.chace.wildflydeploy.WildflydeployApplication] (ServerService Thread Pool -- 14) No active profile set, falling back to 1 default profile: "default"
+2023-06-03 10:19:00,057 INFO  [io.undertow.servlet] (ServerService Thread Pool -- 14) Initializing Spring embedded WebApplicationContext
+2023-06-03 10:19:00,057 INFO  [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] (ServerService Thread Pool -- 14) Root WebApplicationContext: initialization completed in 479 ms
+2023-06-03 10:19:00,628 INFO  [com.chace.wildflydeploy.WildflydeployApplication] (ServerService Thread Pool -- 14) Started WildflydeployApplication in 1.401 seconds (process running for 43.843)
+2023-06-03 10:19:00,632 INFO  [com.chace.wildflydeploy.ServletInitializer] (ServerService Thread Pool -- 14) Root context already created (using as parent).
+2023-06-03 10:19:00,675 INFO  [stdout] (ServerService Thread Pool -- 14) 
+2023-06-03 10:19:00,676 INFO  [stdout] (ServerService Thread Pool -- 14)   .   ____          _            __ _ _
+2023-06-03 10:19:00,676 INFO  [stdout] (ServerService Thread Pool -- 14)  /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+2023-06-03 10:19:00,676 INFO  [stdout] (ServerService Thread Pool -- 14) ( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+2023-06-03 10:19:00,676 INFO  [stdout] (ServerService Thread Pool -- 14)  \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+2023-06-03 10:19:00,676 INFO  [stdout] (ServerService Thread Pool -- 14)   '  |____| .__|_| |_|_| |_\__, | / / / /
+2023-06-03 10:19:00,676 INFO  [stdout] (ServerService Thread Pool -- 14)  =========|_|==============|___/=/_/_/_/
+2023-06-03 10:19:00,676 INFO  [stdout] (ServerService Thread Pool -- 14)  :: Spring Boot ::                (v3.0.7)
+2023-06-03 10:19:00,676 INFO  [stdout] (ServerService Thread Pool -- 14) 
+2023-06-03 10:19:00,680 INFO  [com.chace.wildflydeploy.ServletInitializer] (ServerService Thread Pool -- 14) No active profile set, falling back to 1 default profile: "default"
+2023-06-03 10:19:00,788 INFO  [io.undertow.servlet] (ServerService Thread Pool -- 14) Initializing Spring embedded WebApplicationContext
+2023-06-03 10:19:00,789 INFO  [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] (ServerService Thread Pool -- 14) Root WebApplicationContext: initialization completed in 106 ms
+2023-06-03 10:19:00,792 INFO  [org.springframework.boot.web.servlet.RegistrationBean] (ServerService Thread Pool -- 14) Filter errorPageFilter was not registered (possibly already registered?)
+2023-06-03 10:19:00,813 INFO  [com.chace.wildflydeploy.ServletInitializer] (ServerService Thread Pool -- 14) Started ServletInitializer in 0.18 seconds (process running for 44.028)
+2023-06-03 10:19:00,888 INFO  [jakarta.enterprise.resource.webcontainer.faces.config] (ServerService Thread Pool -- 14) Initializing Mojarra 4.0.0.SP01 for context '/wildflydeploy-1.0'
+2023-06-03 10:19:01,388 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 14) WFLYUT0021: Registered web context: '/wildflydeploy-1.0' for server 'default-server'
+2023-06-03 10:19:01,426 INFO  [org.jboss.as.server] (DeploymentScanner-threads - 1) WFLYSRV0010: Deployed "wildflydeploy-1.0.war" (runtime-name : "wildflydeploy-1.0.war")
+2023-06-03 10:19:42,525 INFO  [io.undertow.servlet] (default task-1) Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-06-03 10:19:42,525 INFO  [org.springframework.web.servlet.DispatcherServlet] (default task-1) Initializing Servlet 'dispatcherServlet'
+2023-06-03 10:19:42,527 INFO  [org.springframework.web.servlet.DispatcherServlet] (default task-1) Completed initialization in 2 ms
+2023-06-03 10:28:28,312 INFO  [org.jboss.as.repository] (ServerService Thread Pool -- 1) WFLYDR0009: Content C:\Data\Docs\Projects\Spring boot\Test_Deploy_SpringBoot_On_Wildfly\wildfly-28.0.0.Final\standalone\data\content\26\65a7ecf53ff5f0c246e4c4312c575f347c4563 is obsolete and will be removed
+2023-06-03 10:28:28,323 INFO  [org.jboss.as.repository] (ServerService Thread Pool -- 1) WFLYDR0002: Content removed from location C:\Data\Docs\Projects\Spring boot\Test_Deploy_SpringBoot_On_Wildfly\wildfly-28.0.0.Final\standalone\data\content\26\65a7ecf53ff5f0c246e4c4312c575f347c4563\content
