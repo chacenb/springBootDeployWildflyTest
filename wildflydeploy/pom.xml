@@ -59,6 +59,8 @@
     </dependencies>
 
     <build>
+
+        <finalName>testWildflyDeploy</finalName>
         <plugins>
             <!--wildfly deploy -->
             <plugin>
